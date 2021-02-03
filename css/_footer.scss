@@ -1,0 +1,63 @@
+.button {
+  display: inline-block;
+  /* since the <a> tag is inline by default, we need to change this to inline-block */
+  background-color: $color-blue;
+  color: #ffffff;
+  /* needed to override the default link color */
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 8px;
+  transition: 0.2s opacity;
+  width: 100%;
+}
+
+.button:active,
+.button:focus,
+.button:hover {
+  background-color: #FFF;
+  color: $color-blue;
+}
+
+.button-container, .socmed-container {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+.button.contact {
+  background-color: transparent;
+  color: $color-blue;
+  text-transform: uppercase;
+  border: 2px solid $color-blue;
+  display: inline-block;
+  width: 100%;
+}
+
+.button.contact:active,
+.button.contact:focus,
+.button.contact:hover {
+  background-color: #FFF;
+  color: $color-blue;
+  border: 2px solid #FFF;
+}
+
+.socmed {
+  padding-left: 0;
+  padding-top: 30px;
+}
+
+.socmed > li {
+  list-style-type: none;
+  padding: 0;
+  display: inline-block;
+  color: #FFF;
+}
+.copyright {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+#footer-text {
+  color: $color-maingrey;
+}

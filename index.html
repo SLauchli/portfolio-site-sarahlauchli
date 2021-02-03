@@ -22,11 +22,11 @@
 
   <header>
     <!-- Container/wrapper at top of page-->
-    <div>
+    <div class="container">
       <!-- <img src="" alt="Name"> -->
       <nav>
         <ul>
-          <li><a href="index.html">Sarah Lauchli</a></li>
+          <li><a class="logo" href="index.html">Sarah Lauchli</a></li>
           <li><a href="index.html">Work</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -38,79 +38,85 @@
 
   <!-- This is for the hero section -->
   <main id="index-hero" class="index">
-    <div>
-      <div>
-        <h1 class="intro">Hi, my name is Sarah Lauchli.
-          <span>I'm a UX/UI Designer from Colorado</span>
-        </h1>
-        <p>UX/UI Designer with a background in art and graphic design driven by curiosity and solving complex problems. Experienced working across multiple departments, managing projects on tight deadlines, and turning even vague concepts into
-          designs.</p>
-      </div>
-    </div>
-    <!-- This is for my work/projects -->
-    <div id="work">
-      <div>
-        <h2>Recent Projects</h2>
-        <div>
-          <!-- Open row that holds 2 columns for project -->
-          <div>
-            <!-- open first column used for image -->
-            <a href="iris.html">
-              <picture>
-                <source srcset="img/iris/IRiS_Image00_@1x.jpg" media="(max-width:767px)">
-                <img src="img/iris/IRiS_Image00_@2x.jpg" alt="IRiS Case Study">
-              </picture>
-            </a>
-          </div>
-          <!-- End first column -->
-          <div>
-            <!-- openn second column (used for text) -->
-            <h3>IRiS</h3>
-            <p>A 3D face scanning, native e-commerce app for purchasing eyeglasses: created using Sketch, Photoshop, and Marvel App. The brief was to create an online shopping experience that would be easy to use and customize for the user.</p>
-            <a href="iris.html" class="button">Read the case study</a>
-          </div>
-          <!-- end second column -->
-        </div>
-      </div>
+    <div class="container">
       <div>
         <div>
-          <!-- Open row that holds 2 columns for project -->
-          <div>
-            <!-- open first column used for image -->
-            <a href="arturo.html">
-              <picture>
-                <source srcset="img/arturo/Arturo_Image00_@1x.jpg" media="(max-width:767px)">
-                <img src="img/arturo/Arturo_Image00_@2x.jpg" alt="Arturo Case Study">
-              </picture>
-            </a>
-          </div>
-          <!-- End first column -->
-          <div>
-            <!-- openn second column (used for text) -->
-            <h3>Arturo</h3>
-            <p>An AR art scanning app created using Sketch, Photoshop, InVision. Two apps were created—one native iOS and one native Android.</p>
-            <a href="arturo.html" class="button">Read the case study</a>
-          </div>
-          <!-- end second column -->
+          <h1 class="intro">Hi, my name is Sarah Lauchli.
+            <span>I'm a UX/UI Designer from Colorado</span>
+          </h1>
+          <p>UX/UI Designer with a background in art and graphic design driven by curiosity and solving complex problems. Experienced working across multiple departments, managing projects on tight deadlines, and turning even vague concepts into
+            designs.</p>
         </div>
-        <!-- end row that holds 2 columns -->
+      </div>
+      <!-- This is for my work/projects -->
+      <div id="work">
+        <div>
+          <h2>Recent Projects</h2>
+          <div class="row">
+            <!-- Open row that holds 2 columns for project -->
+            <div>
+              <!-- open first column used for image -->
+              <a href="iris.html">
+                <picture>
+                  <source srcset="img/iris/IRiS_Image00_@1x.jpg" media="(max-width:767px)">
+                  <img src="img/iris/IRiS_Image00_@2x.jpg" alt="IRiS Case Study">
+                </picture>
+              </a>
+            </div>
+            <!-- End first column -->
+            <div>
+              <!-- openn second column (used for text) -->
+              <h3>IRiS</h3>
+              <p>A 3D face scanning, native e-commerce app for purchasing eyeglasses: created using Sketch, Photoshop, and Marvel App. The brief was to create an online shopping experience that would be easy to use and customize for the user.</p>
+              <div class="button-container">
+                <a href="iris.html" class="button">Read the case study</a>
+              </div>
+            </div>
+            <!-- end second column -->
+          </div>
+        </div>
+        <div>
+          <div class="row">
+            <!-- Open row that holds 2 columns for project -->
+            <div>
+              <!-- open first column used for image -->
+              <a href="arturo.html">
+                <picture>
+                  <source srcset="img/arturo/Arturo_Image00_@1x.jpg" media="(max-width:767px)">
+                  <img src="img/arturo/Arturo_Image00_@2x.jpg" alt="Arturo Case Study">
+                </picture>
+              </a>
+            </div>
+            <!-- End first column -->
+            <div>
+              <!-- openn second column (used for text) -->
+              <h3>Arturo</h3>
+              <p>An AR art scanning app created using Sketch, Photoshop, InVision. Two apps were created—one native iOS and one native Android.</p>
+              <div class="button-container">
+                <a href="arturo.html" class="button">Read the case study</a>
+              </div>
+            </div>
+            <!-- end second column -->
+          </div>
+          <!-- end row that holds 2 columns -->
+        </div>
       </div>
     </div>
   </main>
 
   <!-- This is for the footer -->
   <footer id="contact">
-    <div>
+    <div class="container" id="footer-text">
       <h2>Get in Touch</h2>
       <p>I'm available for remote and in-person work within Colorado. I am also willing to relocate for the right opportunity. If you like my work and want to get in touch, please call me at <a href="tel:+19703083446">+1 (970) 308-3446</a> or send me
         an
         email at Sarah.Lauchli [at] gmail.com</p>
-      <div>
+      <div class="button-container">
         <a href="mailto:sarah.lauchli@gmail.com?subject=Business Inquiry &body=Hi Sarah! I was on your site and wanted to get in contact." class="button contact">Email me</a>
       </div>
-      <div>
+      <div class="socmed-container">
         <!-- social media layout and placeholders -->
-        <ul>
+        <ul class="socmed">
           <li><a href="https://www.linkedin.com/in/sarah-lauchli/" target="_blank">
               <svg height="50px" id="LinkedIn" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="50px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <pattern height="69" id="Polka_Dot_Pattern" patternUnits="userSpaceOnUse" style="overflow:visible;" viewBox="2.125 -70.896 69 69" width="69" y="512">
@@ -801,7 +807,7 @@
                     }
 
                     .fil1 {
-                      fill: #B2215A
+                      fill: rgba (0, 0, 0, 0);
                     }
 
                     .fil0 {
@@ -822,7 +828,9 @@
             </a></li>
         </ul>
       </div>
-      <p>Copyright Sarah Lauchli 2021</p>
+      <div class="copyright">
+        <p>Copyright Sarah Lauchli 2021</p>
+      </div>
     </div>
   </footer>
 </body>

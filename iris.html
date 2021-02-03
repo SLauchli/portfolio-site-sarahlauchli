@@ -22,11 +22,11 @@
 
   <header id="nav">
     <!-- Container/wrapper at top of page-->
-    <div>
+    <div class="container">
       <!-- <img src="" alt="Name"> -->
       <nav>
         <ul>
-          <li><a href="index.html">Sarah Lauchli</a></li>
+          <li><a class ="logo" href="index.html">Sarah Lauchli</a></li>
           <li><a href="index.html">Work</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -38,7 +38,7 @@
 
   <!-- This is for the hero section -->
   <main class="project-body iris">
-    <div>
+    <div class="container">
       <div>
         <!-- Page 1 -->
         <div>
@@ -844,17 +844,17 @@
 
   <!-- This is for the footer -->
   <footer id="contact">
-    <div>
+    <div class="container" id="footer-text">
       <h2>Get in Touch</h2>
       <p>I'm available for remote and in-person work within Colorado. I am also willing to relocate for the right opportunity. If you like my work and want to get in touch, please call me at <a href="tel:+19703083446">+1 (970) 308-3446</a> or send me
         an
         email at Sarah.Lauchli [at] gmail.com</p>
-      <div>
-        <a> href="mailto:sarah.lauchli@gmail.com?subject=Business Inquiry &body=Hi Sarah! I was on your site and wanted to get in contact.">Email me</a>
+      <div class="button-container">
+        <a href="mailto:sarah.lauchli@gmail.com?subject=Business Inquiry &body=Hi Sarah! I was on your site and wanted to get in contact." class="button contact">Email me</a>
       </div>
-      <div>
+      <div class="socmed-container">
         <!-- social media layout and placeholders -->
-        <ul>
+        <ul class="socmed">
           <li><a href="https://www.linkedin.com/in/sarah-lauchli/" target="_blank">
               <svg height="50px" id="LinkedIn" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="50px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <pattern height="69" id="Polka_Dot_Pattern" patternUnits="userSpaceOnUse" style="overflow:visible;" viewBox="2.125 -70.896 69 69" width="69" y="512">
@@ -1545,7 +1545,7 @@
                     }
 
                     .fil1 {
-                      fill: #B2215A
+                      fill: rgba (0, 0, 0, 0);
                     }
 
                     .fil0 {
@@ -1566,9 +1566,12 @@
             </a></li>
         </ul>
       </div>
-      <p>Copyright Sarah Lauchli 2021</p>
+      <div class="copyright">
+        <p>Copyright Sarah Lauchli 2021</p>
+      </div>
     </div>
   </footer>
+
 </body>
 
 </html>

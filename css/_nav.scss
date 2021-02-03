@@ -1,0 +1,38 @@
+nav {
+  display: inline-block;
+  width: 100%;
+}
+
+nav>ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav>ul {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #FFF;
+}
+
+nav>ul>li {
+  display: inline-block;
+  padding: 0 5px;
+
+}
+
+nav>ul>li:first-child {
+  width: 100%;
+  display: block;
+  text-transform: none;
+  // text-transform: uppercase;
+  padding-left: 0;
+  padding-right: 0;
+
+}
+
+.logo {
+  max-width: 250px;
+  font-weight: 700;
+  font-size: 30px;
+}

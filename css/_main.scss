@@ -1,0 +1,48 @@
+#index-hero {
+  background-color: #FFF;
+  padding-bottom: 20px;
+  display: inline-block;
+  width: 100%;
+}
+
+
+#about-hero {
+  // background-color: #FFF;
+  // padding-bottom: 20px;
+  display: inline-block;
+  width: 100%;
+  color: $color-maingrey;
+}
+
+#index-hero h1 {
+  text-align: center;
+}
+// This is for Arturo and IRiS' background color
+
+.project-body {
+  background-color: #FFF;
+}
+
+/* Layout styling */
+.container {
+  padding: 0 15px;
+}
+
+.intro {
+  padding-top: 10px;
+}
+
+main {
+  padding-top: 160px;
+}
+
+// This adds padding
+/* #index-hero h1 {
+  margin: 0;
+  padding: 0.67em 0;
+}
+
+#about-hero h1 {
+  margin: 0;
+  padding: 0.67em 0;
+} */

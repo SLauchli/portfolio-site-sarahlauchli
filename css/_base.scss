@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $color-maindark;
+  color: $color-maindark;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+/*
+a:visited {
+  color: rgb(153, 153, 153);
+}
+*/
+a:hover, a:focus, a:active {
+  color: $color-blue;
+}
