@@ -11,23 +11,23 @@
 	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
 ]>
 <svg version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 138.6 138.6"
-	 style="enable-background:new 0 0 138.6 138.6;" xml:space="preserve">
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 329.2 329.2"
+	 style="enable-background:new 0 0 329.2 329.2;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#ECE9E9;}
-	.st1{fill:#322C2D;}
-	.st2{fill:#EF3C57;}
+	.st0{fill:#41091F;}
+	.st1{fill:#E84969;}
 </style>
 <metadata>
 	<sfw  xmlns="&ns_sfw;">
 		<slices></slices>
-		<sliceSourceBounds  bottomLeftOrigin="true" height="138.6" width="138.6" x="110.9" y="43.7"></sliceSourceBounds>
+		<sliceSourceBounds  bottomLeftOrigin="true" height="329.2" width="329.2" x="261" y="231.4"></sliceSourceBounds>
 	</sfw>
 </metadata>
-<circle class="st0" cx="69.3" cy="69.3" r="69.3"/>
-<g>
-	<path class="st1" d="M69.3,55c-3.1,0-5.9-0.6-8.6-1.7v54.8c0,2.7,0.8,4.6,2.3,6.3c1.5,1.5,3.6,2.5,6.3,2.5s4.8-0.8,6.3-2.5
-		c1.5-1.5,2.3-3.6,2.3-6.3V53.3C75.3,54.4,72.4,55,69.3,55z"/>
-	<circle class="st2" cx="69.3" cy="32.6" r="10.9"/>
+<g id="Adobe_outlines">
+	<path class="st0" d="M71.9,0h185.3c39.7,0,72,32.2,72,71.9v185.3c0,39.7-32.2,72-72,72H71.9C32.2,329.2,0,297,0,257.3V71.9
+		C0,32.2,32.2,0,71.9,0z"/>
+	<path class="st1" d="M115.9,250.6H83V84.8h33L115.9,250.6z"/>
+	<path class="st1" d="M137,192c0-66.8,78.5-65.5,78.5-65.5V78.6h30.8v163.6c0,0-31,13.3-63.7,6.3C161,244,137,229.8,137,192z
+		 M215.3,159.1c0,0-43.7-7.3-43.7,32.7c0,40.5,43.7,33.2,43.7,33.2V159.1z"/>
 </g>
 </svg>

@@ -1,15 +1,138 @@
-.iris p, .arturo p {
+.arturo p,
+.iris p {
   font-family: 'Kumbh Sans', sans-serif;
 }
 
-.iris h1, .iris h2, .iris h3, .iris h4 {
+.iris h1,
+.iris h2,
+.iris h3,
+.iris h4 {
   font-family: 'Nunito', sans-serif;
 }
 
-.iris p, .iris h1, .iris h3 {
+.iris h1,
+.iris h3,
+.iris p {
   color: #0f0f0b;
 }
 
 .iris h2 {
   color: #f03d57;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.iris p {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.full-fluff {
+  padding: 20px 0;
+}
+
+.bottom-fluff {
+  margin-bottom: 50px;
+}
+
+.apps {
+  display: inline-block;
+  width: 100%;
+
+  ul {
+    padding-left: 0;
+    margin-top: 20px;
+    li {
+      list-style-type: none;
+      display: inline;
+      padding: 0 10px 0 0;
+
+
+      img {
+        width: 50px;
+        height: auto;
+    }
+  }
+}
+}
+
+#iris-logo {
+  text-align: center;
+  margin-bottom: 20px;
+  img {
+      margin: 20px;
+  width: 50%;
+  }
+}
+
+#color-info {
+  text-align: center;
+  p {
+    margin: 10px 0;
+  }
+    div {
+      padding: 20px;
+}
+}
+
+#pill-pink {
+  height: 80px;
+  width: 50%;
+  border-radius: 60px;
+  background-color: #f03d57;
+  border: none;
+  margin: 0 auto;
+}
+#pill-whisper {
+  height: 80px;
+  width: 50%;
+  border-radius: 60px;
+  background-color: #ece9e9;
+  border: none;
+  margin: 0 auto;
+}
+#pill-aubergine {
+  height: 80px;
+  width: 50%;
+  border-radius: 60px;
+  background-color: #322c2d;
+  border: none;
+  margin: 0 auto;
+}
+#pill-black {
+  height: 80px;
+  width: 50%;
+  border-radius: 60px;
+  background-color: #0f0f0b;
+  border: none;
+  margin: 0 auto;
+}
+#nunito-title {
+  font-family: 'nunito', sans-serif;
+  font-weight: 700;
+  font-size: 72px;
+}
+
+#iris-font-li {
+  ul{
+  list-style-type: none;
+  padding: 0;
+  display: inline-block;
+  width: 100%;
+  font-family: 'nunito', sans-serif;
+  li {
+    list-style-type: none;
+    display: inline;
+    padding: 0 10px 0 0;
+    }
+  li:first-child {
+    font-weight: 300;
+  }
+  li:nth-child(2) {
+    font-weight: 400;
+    }
+  li:nth-child(3) {
+    font-weight: 700;
+    }
+  }
 }

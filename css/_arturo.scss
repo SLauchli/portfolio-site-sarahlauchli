@@ -5,18 +5,27 @@
 //   width: 100%
 // }
 
-.arturo h1, .arturo h2, .arturo h3, .arturo h4 {
+.arturo h1,
+.arturo h2,
+.arturo h3,
+.arturo h4 {
   font-family: 'Montserrat', sans-serif;
 }
 
-.arturo p, .arturo h4 {
+.arturo h4,
+.arturo p {
   color: #2D2D2D;
 }
 
-.arturo h1, .arturo h2 {
+.arturo h1,{
   color: #BD2B2C;
 }
-
+.arturo h1 {
+  font-size: 36px;
+}
+.arturo h2 {
+  font-size: 30px;
+}
 .arturo h3 {
   color: #7F7F7F;
 }
@@ -27,4 +36,83 @@
 
 main.project-body.arturo {
   padding-top: 160px;
+}
+
+#circle-grey {
+  height: 120px;
+  width: 50%;
+  border-radius: 200px;
+  background-color: #d9d9d9;
+  border: none;
+  margin: 0 auto;
+}
+
+#circle-med-grey {
+  height: 120px;
+  width: 50%;
+  border-radius: 200px;
+  background-color: #7f7f7f;
+  border: none;
+  margin: 0 auto;
+}
+
+#circle-dark-grey {
+  height: 120px;
+  width: 50%;
+  border-radius: 200px;
+  background-color: #2d2d2d;
+  border: none;
+  margin: 0 auto;
+}
+
+#circle-red {
+  height: 120px;
+  width: 50%;
+  border-radius: 200px;
+  background-color: #bd2b2c;
+  border: none;
+  margin: 0 auto;
+}
+
+#roboto-title {
+  h2 {
+    font-weight: 700;
+    // font-size: 30px;
+    color: black;
+    margin-bottom: 0;
+  }
+
+  p {
+    font-weight: 400;
+    // font-size: 16px;
+    font-family: 'roboto', sans-serif !important;
+  }
+}
+
+.arturo-font-li {
+  ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+    width: 100%;
+    font-family: 'roboto', sans-serif;
+
+    li {
+      list-style-type: none;
+      display: inline;
+      padding: 0 10px 0 0;
+    }
+
+    li:first-child {
+      font-weight: 400;
+    }
+
+    li:nth-child(2) {
+      font-weight: 500;
+    }
+
+    li:nth-child(3) {
+      font-weight: 700;
+    }
+  }
 }
