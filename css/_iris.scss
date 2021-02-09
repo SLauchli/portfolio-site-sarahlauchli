@@ -15,7 +15,9 @@
 .iris p {
   color: #0f0f0b;
 }
-
+.iris h1 {
+  margin-top: 40px;
+}
 .iris h2 {
   color: #f03d57;
   margin-bottom: 20px;
@@ -27,52 +29,26 @@
   margin-bottom: 30px;
 }
 
-.full-fluff {
-  padding: 20px 0;
-}
-
-.bottom-fluff {
-  margin-bottom: 50px;
-}
-
-.apps {
-  display: inline-block;
-  width: 100%;
-
-  ul {
-    padding-left: 0;
-    margin-top: 20px;
-    li {
-      list-style-type: none;
-      display: inline;
-      padding: 0 10px 0 0;
-
-
-      img {
-        width: 50px;
-        height: auto;
-    }
-  }
-}
-}
-
 #iris-logo {
   text-align: center;
   margin-bottom: 20px;
+
   img {
-      margin: 20px;
-  width: 50%;
+    margin: 20px;
+    width: 50%;
   }
 }
 
 #color-info {
   text-align: center;
+
   p {
     margin: 10px 0;
   }
-    div {
-      padding: 20px;
-}
+
+  div {
+    padding: 20px;
+  }
 }
 
 #pill-pink {
@@ -83,6 +59,7 @@
   border: none;
   margin: 0 auto;
 }
+
 #pill-whisper {
   height: 80px;
   width: 50%;
@@ -91,6 +68,7 @@
   border: none;
   margin: 0 auto;
 }
+
 #pill-aubergine {
   height: 80px;
   width: 50%;
@@ -99,6 +77,7 @@
   border: none;
   margin: 0 auto;
 }
+
 #pill-black {
   height: 80px;
   width: 50%;
@@ -107,32 +86,65 @@
   border: none;
   margin: 0 auto;
 }
-#nunito-title {
-  font-family: 'nunito', sans-serif;
-  font-weight: 700;
-  font-size: 72px;
-}
 
 #iris-font-li {
-  ul{
-  list-style-type: none;
-  padding: 0;
-  display: inline-block;
-  width: 100%;
-  font-family: 'nunito', sans-serif;
-  li {
+  ul {
     list-style-type: none;
-    display: inline;
-    padding: 0 10px 0 0;
+    padding: 0;
+    display: inline-block;
+    width: 100%;
+    font-family: 'nunito', sans-serif;
+
+    li {
+      list-style-type: none;
+      display: inline;
+      padding: 0 10px 0 0;
     }
-  li:first-child {
-    font-weight: 300;
+
+    li:first-child {
+      font-weight: 300;
+    }
+
+    li:nth-child(2) {
+      font-weight: 400;
+    }
+
+    li:nth-child(3) {
+      font-weight: 700;
+    }
   }
-  li:nth-child(2) {
-    font-weight: 400;
-    }
-  li:nth-child(3) {
+}
+
+.nunito-style {
+  font-family: 'nunito', sans-serif;
+
+  h2 {
     font-weight: 700;
-    }
+    font-size: 50px;
+    color: #0f0f0b;
+    margin-bottom: 0;
   }
+  p {
+    font-family: 'nunito', sans-serif;
+    font-weight: 400;
+  }
+}
+
+.comfortaa-style {
+  font-family: 'comfortaa', sans-serif;
+
+  h2 {
+    font-weight: 500;
+    font-size: 50px;
+    color: #0f0f0b;
+    margin-bottom: 20px;
+  }
+  p {
+    font-family: 'comfortaa', sans-serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+}
+.pink a{
+  color: #f03d57;
 }
