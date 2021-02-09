@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20"
+	 style="enable-background:new 0 0 20 20;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<metadata>
+	<x:xmpmeta  xmlns:x="adobe:ns:meta/">
+		<rdf:RDF  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+			
+				<rdf:Description  rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:illustrator="http://ns.adobe.com/illustrator/1.0/" xmlns:pdf="http://ns.adobe.com/pdf/1.3/" xmlns:stDim="http://ns.adobe.com/xap/1.0/sType/Dimensions#" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpG="http://ns.adobe.com/xap/1.0/g/" xmlns:xmpGImg="http://ns.adobe.com/xap/1.0/g/img/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:xmpTPg="http://ns.adobe.com/xap/1.0/t/pg/">
+				<dc:format>image/svg+xml</dc:format>
+				<dc:title>
+					<rdf:Alt>
+						<rdf:li>Print</rdf:li>
+					</rdf:Alt>
+				</dc:title>
+				<xmp:MetadataDate>2021-02-08T23:00:48-07:00</xmp:MetadataDate>
+				<xmp:ModifyDate>2021-02-08T23:00:48-07:00</xmp:ModifyDate>
+				<xmp:CreateDate>2021-02-08T23:00:48-07:00</xmp:CreateDate>
+				<xmp:CreatorTool>Adobe Illustrator 25.1 (Macintosh)</xmp:CreatorTool>
+				<xmp:Thumbnails>
+					<rdf:Alt>
+						<rdf:li  rdf:parseType="Resource">
+							<xmpGImg:width>256</xmpGImg:width>
+							<xmpGImg:height>256</xmpGImg:height>
+							<xmpGImg:format>JPEG</xmpGImg:format>
+							<xmpGImg:image>/9j/4AAQSkZJRgABAgEASABIAAD/7QAsUGhvdG9zaG9wIDMuMAA4QklNA+0AAAAAABAASAAAAAEA
+AQBIAAAAAQAB/+4ADkFkb2JlAGTAAAAAAf/bAIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoK
+DBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxscHx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8f
+Hx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgBAAEAAwER
+AAIRAQMRAf/EAaIAAAAHAQEBAQEAAAAAAAAAAAQFAwIGAQAHCAkKCwEAAgIDAQEBAQEAAAAAAAAA
+AQACAwQFBgcICQoLEAACAQMDAgQCBgcDBAIGAnMBAgMRBAAFIRIxQVEGE2EicYEUMpGhBxWxQiPB
+UtHhMxZi8CRygvElQzRTkqKyY3PCNUQnk6OzNhdUZHTD0uIIJoMJChgZhJRFRqS0VtNVKBry4/PE
+1OT0ZXWFlaW1xdXl9WZ2hpamtsbW5vY3R1dnd4eXp7fH1+f3OEhYaHiImKi4yNjo+Ck5SVlpeYmZ
+qbnJ2en5KjpKWmp6ipqqusra6voRAAICAQIDBQUEBQYECAMDbQEAAhEDBCESMUEFURNhIgZxgZEy
+obHwFMHR4SNCFVJicvEzJDRDghaSUyWiY7LCB3PSNeJEgxdUkwgJChgZJjZFGidkdFU38qOzwygp
+0+PzhJSktMTU5PRldYWVpbXF1eX1RlZmdoaWprbG1ub2R1dnd4eXp7fH1+f3OEhYaHiImKi4yNjo
++DlJWWl5iZmpucnZ6fkqOkpaanqKmqq6ytrq+v/aAAwDAQACEQMRAD8A9U4q7FXYq7FXYq7FXYq7
+FXYq7FUs1zzN5e0G39fWdRt7CMglPXkVWan8i/aY/wCqMIiTyQZAc3mXmD/nJryZYlo9ItLnV5R9
+l6fVoT/spAZP+SeXR056tMtQOjz3Wf8AnJrz1dll062s9NiP2WCNPKPm0h4H/gMtGni1HUSYfqP5
+t/mVqBP1jzDeJXqLdxbDx6QCPLBiiOjWcsj1Y/da9rl2a3Wo3NwfGWaRz0p+0TkqDGygcKHYqjrX
+XtctDW11G5tz4xTSIelP2SMFBNlkGnfm3+ZWnkfV/MN49OguHFyPHpOJMicUT0ZDLIdWYaN/zk15
+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
+/wD/2Q==
+								</xmpGImg:image>
+						</rdf:li>
+					</rdf:Alt>
+				</xmp:Thumbnails>
+				<xmpMM:InstanceID>xmp.iid:0d2fafd0-500b-4432-9ef2-cf96a21d3388</xmpMM:InstanceID>
+				<xmpMM:DocumentID>xmp.did:0d2fafd0-500b-4432-9ef2-cf96a21d3388</xmpMM:DocumentID>
+				<xmpMM:OriginalDocumentID>uuid:5D20892493BFDB11914A8590D31508C8</xmpMM:OriginalDocumentID>
+				<xmpMM:RenditionClass>proof:pdf</xmpMM:RenditionClass>
+				<xmpMM:DerivedFrom  rdf:parseType="Resource">
+					<stRef:instanceID>xmp.iid:4d8eb706-24ba-49c5-893c-793486be278b</stRef:instanceID>
+					<stRef:documentID>xmp.did:4d8eb706-24ba-49c5-893c-793486be278b</stRef:documentID>
+					<stRef:originalDocumentID>uuid:5D20892493BFDB11914A8590D31508C8</stRef:originalDocumentID>
+					<stRef:renditionClass>proof:pdf</stRef:renditionClass>
+				</xmpMM:DerivedFrom>
+				<xmpMM:History>
+					<rdf:Seq>
+						<rdf:li  rdf:parseType="Resource">
+							<stEvt:action>saved</stEvt:action>
+							<stEvt:instanceID>xmp.iid:9d0aaf74-9919-4604-aa8c-ef6ffb4c166b</stEvt:instanceID>
+							<stEvt:when>2021-02-08T22:54:35-07:00</stEvt:when>
+							<stEvt:softwareAgent>Adobe Illustrator 25.1 (Macintosh)</stEvt:softwareAgent>
+							<stEvt:changed>/</stEvt:changed>
+						</rdf:li>
+						<rdf:li  rdf:parseType="Resource">
+							<stEvt:action>saved</stEvt:action>
+							<stEvt:instanceID>xmp.iid:0d2fafd0-500b-4432-9ef2-cf96a21d3388</stEvt:instanceID>
+							<stEvt:when>2021-02-08T23:00:48-07:00</stEvt:when>
+							<stEvt:softwareAgent>Adobe Illustrator 25.1 (Macintosh)</stEvt:softwareAgent>
+							<stEvt:changed>/</stEvt:changed>
+						</rdf:li>
+					</rdf:Seq>
+				</xmpMM:History>
+				<illustrator:StartupProfile>Print</illustrator:StartupProfile>
+				<xmpTPg:HasVisibleOverprint>False</xmpTPg:HasVisibleOverprint>
+				<xmpTPg:HasVisibleTransparency>False</xmpTPg:HasVisibleTransparency>
+				<xmpTPg:NPages>1</xmpTPg:NPages>
+				<xmpTPg:MaxPageSize  rdf:parseType="Resource">
+					<stDim:w>20.000000</stDim:w>
+					<stDim:h>20.000000</stDim:h>
+					<stDim:unit>Pixels</stDim:unit>
+				</xmpTPg:MaxPageSize>
+				<xmpTPg:PlateNames>
+					<rdf:Seq>
+						<rdf:li>Cyan</rdf:li>
+						<rdf:li>Magenta</rdf:li>
+						<rdf:li>Yellow</rdf:li>
+						<rdf:li>Black</rdf:li>
+					</rdf:Seq>
+				</xmpTPg:PlateNames>
+				<xmpTPg:SwatchGroups>
+					<rdf:Seq>
+						<rdf:li  rdf:parseType="Resource">
+							<xmpG:groupName>Default Swatch Group</xmpG:groupName>
+							<xmpG:groupType>0</xmpG:groupType>
+							<xmpG:Colorants>
+								<rdf:Seq>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>White</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>255</xmpG:red>
+										<xmpG:green>255</xmpG:green>
+										<xmpG:blue>255</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>Black</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>35</xmpG:red>
+										<xmpG:green>31</xmpG:green>
+										<xmpG:blue>32</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>CMYK Red</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>237</xmpG:red>
+										<xmpG:green>28</xmpG:green>
+										<xmpG:blue>36</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>CMYK Yellow</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>255</xmpG:red>
+										<xmpG:green>242</xmpG:green>
+										<xmpG:blue>0</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>CMYK Green</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>0</xmpG:red>
+										<xmpG:green>166</xmpG:green>
+										<xmpG:blue>81</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>CMYK Cyan</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>0</xmpG:red>
+										<xmpG:green>174</xmpG:green>
+										<xmpG:blue>239</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>CMYK Blue</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>46</xmpG:red>
+										<xmpG:green>49</xmpG:green>
+										<xmpG:blue>146</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>CMYK Magenta</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>236</xmpG:red>
+										<xmpG:green>0</xmpG:green>
+										<xmpG:blue>140</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=15 M=100 Y=90 K=10</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>190</xmpG:red>
+										<xmpG:green>30</xmpG:green>
+										<xmpG:blue>45</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=0 M=90 Y=85 K=0</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>239</xmpG:red>
+										<xmpG:green>65</xmpG:green>
+										<xmpG:blue>54</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=0 M=80 Y=95 K=0</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>241</xmpG:red>
+										<xmpG:green>90</xmpG:green>
+										<xmpG:blue>41</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=0 M=50 Y=100 K=0</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>247</xmpG:red>
+										<xmpG:green>148</xmpG:green>
+										<xmpG:blue>29</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=0 M=35 Y=85 K=0</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>251</xmpG:red>
+										<xmpG:green>176</xmpG:green>
+										<xmpG:blue>64</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=5 M=0 Y=90 K=0</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>249</xmpG:red>
+										<xmpG:green>237</xmpG:green>
+										<xmpG:blue>50</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=20 M=0 Y=100 K=0</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>215</xmpG:red>
+										<xmpG:green>223</xmpG:green>
+										<xmpG:blue>35</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=50 M=0 Y=100 K=0</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>141</xmpG:red>
+										<xmpG:green>198</xmpG:green>
+										<xmpG:blue>63</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=75 M=0 Y=100 K=0</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>57</xmpG:red>
+										<xmpG:green>181</xmpG:green>
+										<xmpG:blue>74</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=85 M=10 Y=100 K=10</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>0</xmpG:red>
+										<xmpG:green>148</xmpG:green>
+										<xmpG:blue>68</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=90 M=30 Y=95 K=30</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>0</xmpG:red>
+										<xmpG:green>104</xmpG:green>
+										<xmpG:blue>56</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=75 M=0 Y=75 K=0</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>43</xmpG:red>
+										<xmpG:green>182</xmpG:green>
+										<xmpG:blue>115</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=80 M=10 Y=45 K=0</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>0</xmpG:red>
+										<xmpG:green>167</xmpG:green>
+										<xmpG:blue>157</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=70 M=15 Y=0 K=0</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>39</xmpG:red>
+										<xmpG:green>170</xmpG:green>
+										<xmpG:blue>225</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=85 M=50 Y=0 K=0</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>28</xmpG:red>
+										<xmpG:green>117</xmpG:green>
+										<xmpG:blue>188</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=100 M=95 Y=5 K=0</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>43</xmpG:red>
+										<xmpG:green>57</xmpG:green>
+										<xmpG:blue>144</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=100 M=100 Y=25 K=25</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>38</xmpG:red>
+										<xmpG:green>34</xmpG:green>
+										<xmpG:blue>98</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=75 M=100 Y=0 K=0</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>102</xmpG:red>
+										<xmpG:green>45</xmpG:green>
+										<xmpG:blue>145</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=50 M=100 Y=0 K=0</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>146</xmpG:red>
+										<xmpG:green>39</xmpG:green>
+										<xmpG:blue>143</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=35 M=100 Y=35 K=10</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>158</xmpG:red>
+										<xmpG:green>31</xmpG:green>
+										<xmpG:blue>99</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=10 M=100 Y=50 K=0</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>218</xmpG:red>
+										<xmpG:green>28</xmpG:green>
+										<xmpG:blue>92</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=0 M=95 Y=20 K=0</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>238</xmpG:red>
+										<xmpG:green>42</xmpG:green>
+										<xmpG:blue>123</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=25 M=25 Y=40 K=0</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>194</xmpG:red>
+										<xmpG:green>181</xmpG:green>
+										<xmpG:blue>155</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=40 M=45 Y=50 K=5</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>155</xmpG:red>
+										<xmpG:green>133</xmpG:green>
+										<xmpG:blue>121</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=50 M=50 Y=60 K=25</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>114</xmpG:red>
+										<xmpG:green>102</xmpG:green>
+										<xmpG:blue>88</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=55 M=60 Y=65 K=40</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>89</xmpG:red>
+										<xmpG:green>74</xmpG:green>
+										<xmpG:blue>66</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=25 M=40 Y=65 K=0</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>196</xmpG:red>
+										<xmpG:green>154</xmpG:green>
+										<xmpG:blue>108</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=30 M=50 Y=75 K=10</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>169</xmpG:red>
+										<xmpG:green>124</xmpG:green>
+										<xmpG:blue>80</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=35 M=60 Y=80 K=25</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>139</xmpG:red>
+										<xmpG:green>94</xmpG:green>
+										<xmpG:blue>60</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=40 M=65 Y=90 K=35</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>117</xmpG:red>
+										<xmpG:green>76</xmpG:green>
+										<xmpG:blue>41</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=40 M=70 Y=100 K=50</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>96</xmpG:red>
+										<xmpG:green>57</xmpG:green>
+										<xmpG:blue>19</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=50 M=70 Y=80 K=70</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>60</xmpG:red>
+										<xmpG:green>36</xmpG:green>
+										<xmpG:blue>21</xmpG:blue>
+									</rdf:li>
+								</rdf:Seq>
+							</xmpG:Colorants>
+						</rdf:li>
+						<rdf:li  rdf:parseType="Resource">
+							<xmpG:groupName>Grays</xmpG:groupName>
+							<xmpG:groupType>1</xmpG:groupType>
+							<xmpG:Colorants>
+								<rdf:Seq>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=0 M=0 Y=0 K=100</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>35</xmpG:red>
+										<xmpG:green>31</xmpG:green>
+										<xmpG:blue>32</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=0 M=0 Y=0 K=90</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>65</xmpG:red>
+										<xmpG:green>64</xmpG:green>
+										<xmpG:blue>66</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=0 M=0 Y=0 K=80</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>88</xmpG:red>
+										<xmpG:green>89</xmpG:green>
+										<xmpG:blue>91</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=0 M=0 Y=0 K=70</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>109</xmpG:red>
+										<xmpG:green>110</xmpG:green>
+										<xmpG:blue>113</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=0 M=0 Y=0 K=60</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>128</xmpG:red>
+										<xmpG:green>130</xmpG:green>
+										<xmpG:blue>133</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=0 M=0 Y=0 K=50</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>147</xmpG:red>
+										<xmpG:green>149</xmpG:green>
+										<xmpG:blue>152</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=0 M=0 Y=0 K=40</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>167</xmpG:red>
+										<xmpG:green>169</xmpG:green>
+										<xmpG:blue>172</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=0 M=0 Y=0 K=30</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>188</xmpG:red>
+										<xmpG:green>190</xmpG:green>
+										<xmpG:blue>192</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=0 M=0 Y=0 K=20</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>209</xmpG:red>
+										<xmpG:green>211</xmpG:green>
+										<xmpG:blue>212</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=0 M=0 Y=0 K=10</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>230</xmpG:red>
+										<xmpG:green>231</xmpG:green>
+										<xmpG:blue>232</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=0 M=0 Y=0 K=5</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>241</xmpG:red>
+										<xmpG:green>242</xmpG:green>
+										<xmpG:blue>242</xmpG:blue>
+									</rdf:li>
+								</rdf:Seq>
+							</xmpG:Colorants>
+						</rdf:li>
+						<rdf:li  rdf:parseType="Resource">
+							<xmpG:groupName>Brights</xmpG:groupName>
+							<xmpG:groupType>1</xmpG:groupType>
+							<xmpG:Colorants>
+								<rdf:Seq>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=0 M=100 Y=100 K=0</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>237</xmpG:red>
+										<xmpG:green>28</xmpG:green>
+										<xmpG:blue>36</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=0 M=75 Y=100 K=0</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>242</xmpG:red>
+										<xmpG:green>101</xmpG:green>
+										<xmpG:blue>34</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=0 M=10 Y=95 K=0</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>255</xmpG:red>
+										<xmpG:green>222</xmpG:green>
+										<xmpG:blue>23</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=85 M=10 Y=100 K=0</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>0</xmpG:red>
+										<xmpG:green>161</xmpG:green>
+										<xmpG:blue>75</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=100 M=90 Y=0 K=0</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>33</xmpG:red>
+										<xmpG:green>64</xmpG:green>
+										<xmpG:blue>154</xmpG:blue>
+									</rdf:li>
+									<rdf:li  rdf:parseType="Resource">
+										<xmpG:swatchName>C=60 M=90 Y=0 K=0</xmpG:swatchName>
+										<xmpG:mode>RGB</xmpG:mode>
+										<xmpG:type>PROCESS</xmpG:type>
+										<xmpG:red>127</xmpG:red>
+										<xmpG:green>63</xmpG:green>
+										<xmpG:blue>152</xmpG:blue>
+									</rdf:li>
+								</rdf:Seq>
+							</xmpG:Colorants>
+						</rdf:li>
+					</rdf:Seq>
+				</xmpTPg:SwatchGroups>
+				<pdf:Producer>Adobe PDF library 10.01</pdf:Producer>
+			</rdf:Description>
+		</rdf:RDF>
+	</x:xmpmeta>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  bottomLeftOrigin="true" height="20" width="20" x="0" y="0"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<g>
+	<path class="st0" d="M7.6,10.3H6V12h2c0.4,0,0.7-0.4,0.7-0.8C8.6,10.5,8,10.3,7.6,10.3z"/>
+	<path class="st0" d="M8.3,8.7C8.3,8.3,8,8,7.6,8H6v1.4h1.7C8,9.3,8.3,9,8.3,8.7z"/>
+	<path class="st0" d="M12.9,9.3c-0.6,0-1,0.4-1.1,1H14C13.9,9.7,13.5,9.3,12.9,9.3z"/>
+	<path class="st0" d="M10,0C4.5,0,0,4.5,0,10s4.5,10,10,10s10-4.5,10-10S15.5,0,10,0z M11.4,7h3v1h-3V7z M8,13.4H4.6V6.6H8
+		c0.9,0,1.7,0.8,1.7,1.7c0,0.6-0.3,1.1-0.8,1.4C9.5,10,10,10.6,10,11.3C10,12.5,9.1,13.4,8,13.4z M15.4,11h-3.7
+		c0,0.8,0.5,1.3,1.2,1.3c0.6,0,1-0.4,1.1-1h1.4c-0.2,1.2-1,2-2.5,2s-2.5-1.1-2.5-2.5s1-2.5,2.5-2.5s2.5,1.1,2.5,2.5
+		C15.4,10.9,15.4,11,15.4,11z"/>
+</g>
+</svg>

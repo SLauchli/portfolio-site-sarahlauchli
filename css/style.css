@@ -554,11 +554,20 @@ main.project-body.arturo {
   padding-top: 30px;
 }
 
-.socmed > li {
+.socmed li {
   list-style-type: none;
   padding: 0;
   display: inline-block;
-  color: #FFF;
+}
+
+.socmed li picture img {
+  width: 35px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.socmed li picture img:hover {
+  fill: #359fcd;
 }
 
 .copyright {
@@ -567,6 +576,6 @@ main.project-body.arturo {
   text-align: center;
 }
 
-#footer-text {
+.footer-text {
   color: #999999;
 }
