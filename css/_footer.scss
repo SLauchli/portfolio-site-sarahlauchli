@@ -18,10 +18,11 @@
   color: $color-blue;
 }
 
-.button-container, .socmed-container {
-    text-align: center;
-    display: inline-block;
-    width: 100%;
+.button-container,
+.socmed-container {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
 }
 
 .button.contact {
@@ -44,15 +45,18 @@
 .socmed {
   padding-left: 0;
   padding-top: 30px;
+
   li {
     list-style-type: none;
     padding: 0;
     display: inline-block;
-    svg {
-      width: 35px;
-      margin-right: 5px;
-      margin-left: 5px;
+
+    img {
+      width: 40px;
+      margin-right: 6px;
+      margin-left: 6px;
     }
+
     svg:hover {
       fill: $color-blue;
     }
