@@ -593,14 +593,23 @@ Medium devices (640px and larger)
     float: left;
     margin-top: -10px;
   }
-  header nav {
-    padding-left: 5px;
-  }
-  main {
+  header main {
     padding-top: 90px;
   }
-  body {
+  header body {
     font-size: 20px;
+  }
+  header .nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+  }
+  header .nav-container .align-right {
+    margin-top: 4px;
+    margin-left: 5px;
+    margin-right: 5px;
   }
 }
 
