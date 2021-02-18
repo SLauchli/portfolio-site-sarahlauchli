@@ -259,7 +259,7 @@ h4 {
   margin-top: 30px;
   border-radius: 8px;
   transition: 0.2s opacity;
-  width: 100%;
+  width: 290px;
   transition-duration: 0.2s opacity;
 }
 
@@ -610,7 +610,7 @@ main.project-body.arturo {
   text-transform: uppercase;
   border: 2px solid #359fcd;
   display: inline-block;
-  width: 100%;
+  width: 290px;
 }
 
 .button.contact:active,
