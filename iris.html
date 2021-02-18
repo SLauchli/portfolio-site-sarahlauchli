@@ -21,17 +21,21 @@
 
 <body>
 
-  <header id="nav">
+  <header>
     <!-- Container/wrapper at top of page-->
     <div class="container">
       <!-- <img src="" alt="Name"> -->
       <nav>
         <ul>
-          <li><a class="logo" href="index.html">Sarah Lauchli</a></li>
-          <li><a href="index.html">Work</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="files/Lauchli-Sarah-Resume-UXUI-Designer.pdf" target="_blank">Resume</a></li>
+          <div class="vertical-align">
+            <li class="logo"><a href="index.html">Sarah Lauchli</a></li>
+            <div class="nav-container borderxwidth">
+              <li class="align-right"><a href="index.html">Work</a></li>
+              <li class="align-right"><a href="about.html">About</a></li>
+              <li class="align-right"><a href="#contact">Contact</a></li>
+              <li class="align-right"><a href="files/Lauchli-Sarah-Resume-UXUI-Designer.pdf" target="_blank">Resume</a></li>
+            </div>
+          </div>
         </ul>
       </nav>
     </div>
@@ -169,13 +173,13 @@
         <div>
           <div>
             <div id="iris-logo">
-              <div>
+              <div class="col-md-6">
                 <picture>
                   <source srcset="img/iris/IRiS_Logo.svg" media="(max-width:767px)">
                   <img src="img/iris/IRiS_Logo.svg" alt="IRiS Logo">
                 </picture>
               </div>
-              <div>
+              <div class="col-md-6">
                 <picture>
                   <source srcset="img/iris/IRiS_Logo_Round.svg" media="(max-width:767px)">
                   <img src="img/iris/IRiS_Logo_Round.svg" alt="IRiS Logo Small">
@@ -183,28 +187,28 @@
               </div>
             </div>
             <div id="color-info">
-              <div>
+              <div class="col-md-6 col-lg-2">
                 <div id="pill-pink">
                 </div>
                 <p><strong>Radical Pink</strong></p>
                 <p>HEX: #ef3d57</p>
                 <p>RGB: 239, 61, 87</p>
               </div>
-              <div>
+              <div class="col-md-6 col-lg-2">
                 <div id="pill-whisper">
                 </div>
                 <p><strong>Whisper</strong></p>
                 <p>HEX: #ece9e9</p>
                 <p>RGB: 236, 233, 233</p>
               </div>
-              <div>
+              <div class="col-md-6 col-lg-2">
                 <div id="pill-aubergine">
                 </div>
                 <p><strong>Aubergine</strong></p>
                 <p>HEX: #322c2d</p>
                 <p>RGB: 50, 44, 45</p>
               </div>
-              <div>
+              <div class="col-md-6 col-lg-2">
                 <div id="pill-black">
                 </div>
                 <p><strong>Rich Black FOGRA 39</strong></p>
@@ -216,7 +220,7 @@
         </div>
         <!-- Page 10 -->
         <div>
-          <div>
+          <div class="col-md-6">
             <div class="nunito-style">
               <div>
                 <h2>Nunito</h2>
@@ -234,7 +238,7 @@
               </div>
             </div>
           </div>
-          <div class="comfortaa-style">
+          <div class="comfortaa-style col-md-6">
             <div>
               <h2>Comfortaa</h2>
             </div>
@@ -757,7 +761,7 @@
 
   <!-- This is for the footer -->
   <footer id="contact">
-    <div class="container footer-text">
+    <div class="container">
       <h2>Get in Touch</h2>
       <p>I'm available for remote and in-person work within Colorado. I am also willing to relocate for the right opportunity. If you like my work and want to get in touch, please call me at <a href="tel:+19703083446">+1 (970) 308-3446</a> or send me
         an
@@ -788,7 +792,7 @@
           </li>
         </ul>
       </div>
-      <div class="copyright footer-text">
+      <div class="copyright">
         <p>Copyright Sarah Lauchli 2021</p>
       </div>
     </div>

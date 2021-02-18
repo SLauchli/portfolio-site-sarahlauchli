@@ -1,16 +1,14 @@
 header {
   text-align: center;
   background-color: $color-maindark;
-  padding: 10px 0;
+  padding: 0 0 10px 0;
   -webkit-box-shadow: 0 -13px 30px 19px rgba(50, 50, 50, 0.79);
   -moz-box-shadow: 0 -13px 30px 19px rgba(50, 50, 50, 0.79);
   box-shadow: 0 -13px 30px 19px rgba(50, 50, 50, 0.79);
   position: fixed;
   width: 100%;
 }
-p {
-  line-height: 1.6;
-}
+
 h1,
 h2,
 h3,
@@ -19,12 +17,12 @@ h4 {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 2.25em;
   font-weight: 700;
 }
 
 h2 {
-  font-size: 2.25em;
+  font-size: 2em;
   font-weight: 700;
 }
 

@@ -21,8 +21,12 @@ body {
   color: #222222;
   font-family: 'Lato', sans-serif;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
+  font-size: 1.1em;
+  line-height: 1.65em;
+}
+
+body p {
+  margin: 0;
 }
 
 img {
@@ -44,20 +48,24 @@ a:hover, a:focus, a:active {
 }
 
 nav {
-  display: inline-block;
+  display: block;
   width: 100%;
 }
 
 nav > ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 nav > ul {
   padding: 0 15px;
-  text-transform: uppercase;
   font-weight: 300;
   color: #FFF;
+}
+
+nav > ul .align-right {
+  text-transform: uppercase;
 }
 
 nav > ul > li {
@@ -74,24 +82,22 @@ nav > ul > li:first-child {
 }
 
 .logo {
-  max-width: 250px;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 1.7em;
+  line-height: 2.55em;
+  margin: 0;
+  vertical-align: baseline;
 }
 
 header {
   text-align: center;
   background-color: #222222;
-  padding: 10px 0;
+  padding: 0 0 10px 0;
   -webkit-box-shadow: 0 -13px 30px 19px rgba(50, 50, 50, 0.79);
   -moz-box-shadow: 0 -13px 30px 19px rgba(50, 50, 50, 0.79);
   box-shadow: 0 -13px 30px 19px rgba(50, 50, 50, 0.79);
   position: fixed;
   width: 100%;
-}
-
-p {
-  line-height: 1.6;
 }
 
 h1,
@@ -102,12 +108,12 @@ h4 {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 2.25em;
   font-weight: 700;
 }
 
 h2 {
-  font-size: 2.25em;
+  font-size: 2em;
   font-weight: 700;
 }
 
@@ -124,7 +130,7 @@ h4 {
 #index-hero {
   background-color: #FFF;
   padding-bottom: 20px;
-  display: inline-block;
+  display: block;
   width: 100%;
 }
 
@@ -138,21 +144,24 @@ h4 {
   text-align: center;
 }
 
+#index-hero span {
+  display: block;
+  font-size: 0.60em;
+  color: #000;
+  padding: .5em 0;
+}
+
 .project-body {
   background-color: #FFF;
 }
 
 /* Layout styling */
 .container {
-  padding: 0 15px;
+  padding: 15px 15px;
 }
 
 .intro {
-  padding-top: 10px;
-}
-
-main {
-  padding-top: 160px;
+  margin: 0;
 }
 
 .screen-stack {
@@ -225,11 +234,92 @@ main {
 } */
 .row {
   margin: 0;
-  padding: 0px 0px 2.67em 0px;
+  padding: 0 0 2.67em;
+}
+
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .intro {
   color: #359fcd;
+}
+
+.button,
+.button-main {
+  display: inline-block;
+  /* since the <a> tag is inline by default, we need to change this to inline-block */
+  background-color: #359fcd;
+  color: #ffffff;
+  /* needed to override the default link color */
+  font-weight: 500;
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 8px;
+  transition: 0.2s opacity;
+  width: 100%;
+  transition-duration: 0.2s opacity;
+}
+
+.button:active,
+.button:focus,
+.button:hover {
+  color: #359fcd;
+  opacity: 0.5;
+}
+
+.button-main:active,
+.button-main:focus,
+.button-main:hover {
+  color: white;
+  opacity: 0.5;
+}
+
+.berlin-illustration {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+@keyframes color-change {
+  from {
+    fill: #edc655;
+  }
+  to {
+    fill: #f76414;
+  }
+}
+
+@keyframes cloud-move {
+  from {
+    transform: translate(0, 50px);
+  }
+  to {
+    transform: translate(200px, 50px);
+  }
+}
+
+@keyframes cloud-move-reverse {
+  from {
+    transform: translate(446px, 48px);
+  }
+  to {
+    transform: translate(100px, 48px);
+  }
+}
+
+.sun {
+  animation: 4s color-change infinite alternate linear;
+}
+
+.cloud-front {
+  animation: 30s cloud-move infinite alternate linear;
+}
+
+.cloud-back {
+  animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
 .arturo p,
@@ -496,6 +586,7 @@ main.project-body.arturo {
   margin: 100px 0;
   border-left: 5px dotted #bd2b2c;
   padding: 0 0 0 20px;
+  display: inline-block;
 }
 
 .grey a {
@@ -504,26 +595,6 @@ main.project-body.arturo {
 
 .center {
   text-align: center;
-}
-
-.button {
-  display: inline-block;
-  /* since the <a> tag is inline by default, we need to change this to inline-block */
-  background-color: #359fcd;
-  color: #ffffff;
-  /* needed to override the default link color */
-  font-weight: 500;
-  padding: 10px;
-  border-radius: 8px;
-  transition: 0.2s opacity;
-  width: 100%;
-}
-
-.button:active,
-.button:focus,
-.button:hover {
-  background-color: #FFF;
-  color: #359fcd;
 }
 
 .button-container,
@@ -577,8 +648,20 @@ main.project-body.arturo {
   text-align: center;
 }
 
-.footer-text {
+footer {
   color: #999999;
+}
+
+/*================================
+Small devices (639px and smaller)
+==================================*/
+@media only screen and (max-width: 639px) {
+  #index-hero {
+    padding-top: 250px;
+  }
+  main {
+    padding-top: 160px;
+  }
 }
 
 /*================================
@@ -591,13 +674,6 @@ Medium devices (640px and larger)
   header .logo {
     width: auto;
     float: left;
-    margin-top: -10px;
-  }
-  header main {
-    padding-top: 90px;
-  }
-  header body {
-    font-size: 20px;
   }
   header .nav-container {
     display: flex;
@@ -606,16 +682,146 @@ Medium devices (640px and larger)
     align-items: flex-end;
     flex-wrap: nowrap;
   }
+  header .nav-container a {
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
   header .nav-container .align-right {
     margin-top: 4px;
     margin-left: 5px;
     margin-right: 5px;
+    margin-top: 25px;
+  }
+  main {
+    padding-top: 160px;
+  }
+  #index-hero {
+    padding-top: 120px;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  [class*="col-"] {
+    float: left;
+    padding: 0 10px;
+  }
+  .about h3 {
+    margin: 30px 0 0;
+  }
+  .about h3 .about h2 {
+    margin: 20px 0;
+  }
+  #about-hero {
+    padding: 0;
+    margin-top: 110px;
+  }
+  .index p {
+    margin: 0;
+  }
+  .row h1 {
+    margin: 0 0 20px 0;
+  }
+  #index-hero span {
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
+  .projects {
+    display: inline-block;
+    width: 100%;
+  }
+  .projects h3 {
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
+  .projects p {
+    margin: 0;
+  }
+  .row {
+    margin-bottom: 5px;
+    padding: 0;
+  }
+  .row h1 {
+    padding: 0 10px;
+  }
+  .container {
+    padding: 30px;
   }
 }
 
 /*================================
 Large devices (1024px or larger)
 ==================================*/
+@media only screen and (min-width: 1024px) {
+  .col-lg-5 {
+    width: 40%;
+  }
+  .col-lg-7 {
+    width: 60%;
+  }
+  .col-lg-2 {
+    width: 25%;
+  }
+  [class*="col-"] {
+    float: left;
+    padding: 0 10px;
+  }
+  .about-bullets {
+    display: inline-block;
+    width: 100%;
+  }
+  .row h2 {
+    margin: 0 0 20px 0;
+  }
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 /*================================
 X-Large devices (1440px or larger)
 ==================================*/
+/* Border X get width  */
+.borderxwidth li.align-right a:before {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 2px;
+  content: '';
+  background: #359fcd;
+  transition: all 0.3s;
+}
+
+.borderxwidth li.align-right a:after {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 2px;
+  content: '';
+  background: #359fcd;
+  transition: all 0.3s;
+}
+
+.borderxwidth li.align-right a:before {
+  left: 0;
+  top: 0;
+}
+
+.borderxwidth li.align-right a:after {
+  right: 0;
+  bottom: 0;
+}
+
+.borderxwidth li.align-right a:hover:before {
+  opacity: 1;
+  width: 100%;
+}
+
+.borderxwidth li.align-right a:hover:after {
+  opacity: 1;
+  width: 100%;
+}

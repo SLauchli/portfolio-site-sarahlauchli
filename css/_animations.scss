@@ -1,0 +1,56 @@
+
+/* Border X get width  */
+.borderxwidth {
+  li.align-right {
+    a:before {
+      position: absolute;
+      opacity: 0;
+      width: 0;
+      height: 2px;
+      content: '';
+      background: $color-blue;
+      transition: all 0.3s;
+    }
+    a:after {
+      position: absolute;
+      opacity: 0;
+      width: 0;
+      height: 2px;
+      content: '';
+      background: $color-blue;
+      transition: all 0.3s;
+    }
+  }
+}
+
+.borderxwidth {
+  li.align-right {
+    a:before {
+      left: 0;
+      top: 0;
+    }
+  }
+}
+
+.borderxwidth {
+  li.align-right {
+    a:after {
+      right: 0;
+      bottom: 0;
+    }
+  }
+}
+
+.borderxwidth {
+  li.align-right {
+    a:hover:before {
+      opacity: 1;
+      width: 100%;
+    }
+
+    a:hover:after {
+      opacity: 1;
+      width: 100%;
+    }
+  }
+}

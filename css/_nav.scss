@@ -1,18 +1,21 @@
 nav {
-  display: inline-block;
+  display: block;
   width: 100%;
 }
 
 nav>ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 nav>ul {
   padding: 0 15px;
-  text-transform: uppercase;
   font-weight: 300;
   color: #FFF;
+  .align-right {
+    text-transform: uppercase;
+  }
 }
 
 nav>ul>li {
@@ -32,7 +35,9 @@ nav>ul>li:first-child {
 }
 
 .logo {
-  max-width: 250px;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 1.7em;
+  line-height: 2.55em;
+  margin: 0;
+  vertical-align: baseline;
 }

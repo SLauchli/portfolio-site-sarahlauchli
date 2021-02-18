@@ -1,4 +1,16 @@
 /*================================
+Small devices (639px and smaller)
+==================================*/
+@media only screen and (max-width: 639px) {
+  #index-hero {
+    padding-top: 250px;
+  }
+
+  main {
+    padding-top: 160px;
+  }
+}
+/*================================
 Medium devices (640px and larger)
 ==================================*/
 @media only screen and (min-width: 640px) {
@@ -8,34 +20,123 @@ Medium devices (640px and larger)
     .logo {
       width: auto;
       float: left;
-      margin-top: -10px;
     }
+
+    .nav-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: flex-end;
+      flex-wrap: nowrap;
+      a {
+        position: relative;
+        z-index: 0;
+        cursor: pointer;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+      .align-right {
+        margin-top: 4px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 25px;
+      }
+    }
+  }
 
   main {
-    padding-top: 90px;
+    padding-top: 160px;
   }
-  body {
-    font-size: 20px;
+
+  #index-hero {
+    padding-top: 120px;
   }
-  .nav-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-end;
-    flex-wrap: nowrap;
-    .align-right {
-      margin-top: 4px;
-      margin-left: 5px;
-      margin-right: 5px;
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+  [class*="col-"] {
+    float: left;
+    padding: 0 10px;
+  }
+
+  .about h3 {
+    margin: 30px 0 0;
+
+    .about h2 {
+      margin: 20px 0;
     }
   }
+#about-hero {
+  padding: 0;
+  margin-top: 110px;
 }
+  .index p {
+    margin: 0;
+  }
+.row h1 {
+  margin: 0 0 20px 0;
 }
+  #index-hero span {
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
+  .projects {
+    display: inline-block;
+    width: 100%;
+    h3 {
+      margin-bottom: 20px;
+      margin-top: 0;
+    }
+    p {
+      margin: 0;
+    }
+  }
 
+  .row {
+    margin-bottom: 5px;
+    padding: 0;
+    h1
+    {
+      padding: 0 10px;
+    }
+  }
+  .container {
+    padding: 30px;
+   }
+}
 /*================================
 Large devices (1024px or larger)
 ==================================*/
-@media only screen and (min-width: 1024px) {}
+@media only screen and (min-width: 1024px) {
+  .col-lg-5 {
+    width: 40%;
+  }
+
+  .col-lg-7 {
+    width: 60%;
+  }
+  .col-lg-2 {
+    width: 25%;
+  }
+  [class*="col-"] {
+    float: left;
+    padding: 0 10px;
+  }
+  .about-bullets {
+    display: inline-block;
+    width: 100%;
+  }
+  .row h2 {
+      margin: 0 0 20px 0;
+    }
+    .container {
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+     }
+}
 /*================================
 X-Large devices (1440px or larger)
 ==================================*/

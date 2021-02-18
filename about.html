@@ -20,81 +20,87 @@
 
 <body>
 
-  <header id="nav">
+  <header>
     <!-- Container/wrapper at top of page-->
-    <div class="container">
-      <!-- <img src="" alt="Name"> -->
-      <nav>
-        <ul>
-          <li><a class ="logo" href="index.html">Sarah Lauchli</a></li>
-          <li><a href="index.html">Work</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="files/Lauchli-Sarah-Resume-UXUI-Designer.pdf" target="_blank">Resume</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+    <header>
+      <!-- Container/wrapper at top of page-->
+      <div class="container">
+        <!-- <img src="" alt="Name"> -->
+        <nav>
+          <ul>
+            <div class="vertical-align">
+              <li class="logo"><a href="index.html">Sarah Lauchli</a></li>
+              <div class="nav-container borderxwidth">
+                <li class="align-right"><a href="index.html">Work</a></li>
+                <li class="align-right"><a href="about.html">About</a></li>
+                <li class="align-right"><a href="#contact">Contact</a></li>
+                <li class="align-right"><a href="files/Lauchli-Sarah-Resume-UXUI-Designer.pdf" target="_blank">Resume</a></li>
+              </div>
+            </div>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
   <!-- This is for the hero section -->
   <main class="about" id="about-hero">
     <div class="container">
       <div class="row">
         <h1>About</h1>
-        <div>
+        <div class="col-lg-5">
           <picture>
             <source srcset="img/about/ProfilePic_@1x.jpg" media="(max-width:767px)">
             <img src="img/about/ProfilePic_@2x.jpg" alt="Sarah Lauchli">
           </picture>
-          <div>
-            <h2>My Story</h2>
-            <p>I’m a UX/UI Designer with a background in fine art and graphic design. As a designer, I used my creativity and design skills to create assets for products, email campaigns, marketing materials, and conference material. In my design
-              roles, I worked across multiple departments, managed projects on tight deadlines from start to finish, and turned vague company ideas into reality. While I enjoyed creating visually appealing designs, I was always trying to identify the
-              “whys” of an idea or project to solve deeper issues for the consumer. Combining my love for clean design, creativity, and my drive to solve substantial problems I moved to the world of UX/UI design where the user’s experience, goals,
-              and pain points are always the center of attention.</p>
-            <a></a>
-            <!-- Column 1 -->
-            <div>
-              <h3>Relevant Skills</h3>
-              <ul>
-                <li>User Research (Competitor Analysis, User Interviews, User Preferences Tests)</li>
-                <li>Wireframes</li>
-                <li>Mockups</li>
-                <li>Mood Boards</li>
-                <li>User Flows</li>
-                <li>Style Guides</li>
-                <li>Color Theory</li>
-                <li>Typography</li>
-                <li>Responsive Design</li>
-                <li>Native and Web Apps</li>
-              </ul>
-            </div>
-            <!-- column 2 -->
-            <div>
-              <h3>Tools I Use</h3>
-              <ul>
-                <li>InDesign</li>
-                <li>Photoshop</li>
-                <li>Illustrator</li>
-                <li>Sketch</li>
-                <li>Marvel App</li>
-                <li>InVision</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-              </ul>
-            </div>
+        </div>
+        <div class="col-lg-7">
+          <h2>My Story</h2>
+          <p>I’m a UX/UI Designer with a background in fine art and graphic design. As a designer, I used my creativity and design skills to create assets for products, email campaigns, marketing materials, and conference material. In my design
+            roles, I worked across multiple departments, managed projects on tight deadlines from start to finish, and turned vague company ideas into reality. While I enjoyed creating visually appealing designs, I was always trying to identify the
+            “whys” of an idea or project to solve deeper issues for the consumer. Combining my love for clean design, creativity, and my drive to solve substantial problems I moved to the world of UX/UI design where the user’s experience, goals,
+            and pain points are always the center of attention.</p>
+        </div>
+        <div class="about-bullets">
+          <div class="col-md-6">
+            <h3>Relevant Skills</h3>
+            <ul>
+              <li>User Research (Competitor Analysis, User Interviews, User Preferences Tests)</li>
+              <li>Wireframes</li>
+              <li>Mockups</li>
+              <li>Mood Boards</li>
+              <li>User Flows</li>
+              <li>Style Guides</li>
+              <li>Color Theory</li>
+              <li>Typography</li>
+              <li>Responsive Design</li>
+              <li>Native and Web Apps</li>
+            </ul>
           </div>
-          <div class="button-container">
-            <a href="files/Lauchli-Sarah-Resume-UXUI-Designer.pdf" target="_blank" class="button">Download Resume</a>
+          <div class="col-md-6">
+            <h3>Tools I Use</h3>
+            <ul>
+              <li>InDesign</li>
+              <li>Photoshop</li>
+              <li>Illustrator</li>
+              <li>Sketch</li>
+              <li>Marvel App</li>
+              <li>InVision</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+            </ul>
           </div>
         </div>
       </div>
+      <div class="button-container">
+        <a href="files/Lauchli-Sarah-Resume-UXUI-Designer.pdf" target="_blank" class="button">Download Resume</a>
+      </div>
+    </div>
   </main>
 
   <!-- This is for the footer -->
   <footer id="contact">
-    <div class="container footer-text">
+    <div class="container">
       <h2>Get in Touch</h2>
       <p>I'm available for remote and in-person work within Colorado. I am also willing to relocate for the right opportunity. If you like my work and want to get in touch, please call me at <a href="tel:+19703083446">+1 (970) 308-3446</a> or send me
         an
@@ -125,7 +131,7 @@
           </li>
         </ul>
       </div>
-      <div class="copyright footer-text">
+      <div class="copyright">
         <p>Copyright Sarah Lauchli 2021</p>
       </div>
     </div>
