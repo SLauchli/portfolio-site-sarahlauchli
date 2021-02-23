@@ -1,7 +1,3 @@
-nav {
-  display: block;
-  width: 100%;
-}
 
 nav>ul {
   list-style-type: none;
@@ -16,12 +12,6 @@ nav>ul {
   .align-right {
     text-transform: uppercase;
   }
-}
-
-nav>ul>li {
-  display: inline-block;
-  padding: 0 5px;
-
 }
 
 nav>ul>li:first-child {
@@ -40,4 +30,14 @@ nav>ul>li:first-child {
   line-height: 2.55em;
   margin: 0;
   vertical-align: baseline;
+}
+
+.nav-container li:last-child {
+  display: none;
+}
+.fa-bars {
+font-size: 1.8em;
+}
+navtoggle.responsive li {
+  display: block;
 }

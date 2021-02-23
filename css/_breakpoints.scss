@@ -3,11 +3,56 @@ Small devices (639px and smaller)
 ==================================*/
 @media only screen and (max-width: 639px) {
   #index-hero {
-    padding-top: 250px;
+    padding-top: 80px;
   }
 
   main {
     padding-top: 160px;
+  }
+
+  nav > ul > li {
+    display: inline-block;
+    padding: 10px 5px 10px 0;
+  }
+
+  .vertical-align {
+      padding-right: 0;
+      margin-right: -25px;
+    li.logo {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    width: 70%;
+    padding-right: 0;
+    a {
+      font-size: .9em;
+    }
+    }
+  }
+
+  .nav-container {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-basis: auto;
+    width: 25%;
+    text-align: right;
+    padding-right: 0;
+    margin-right: 0;
+    li:not(:last-child) {
+    display: none;
+    }
+    li:last-child {
+      display: block;
+      justify-content: flex-end;
+      width: 100%;
+      padding-right: 0;
+    }
+  }
+  .container {
+    padding: 0px 10px;
+  }
+  .hidden {
+    display: none;
   }
 }
 /*================================
@@ -28,13 +73,15 @@ Medium devices (640px and larger)
       justify-content: flex-end;
       align-items: flex-end;
       flex-wrap: nowrap;
+
       a {
         position: relative;
         z-index: 0;
         cursor: pointer;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 0px;
+        padding-bottom: 0px;
       }
+
       .align-right {
         margin-top: 4px;
         margin-left: 5px;
@@ -49,7 +96,7 @@ Medium devices (640px and larger)
   }
 
   #index-hero {
-    padding-top: 120px;
+    padding-top: 100px;
   }
 
   .col-md-6 {
@@ -68,27 +115,34 @@ Medium devices (640px and larger)
       margin: 20px 0;
     }
   }
-#about-hero {
-  padding: 0;
-  margin-top: 110px;
-}
+
+  #about-hero {
+    padding: 0;
+    margin-top: 110px;
+  }
+
   .index p {
     margin: 0;
   }
-.row h1 {
-  margin: 0 0 20px 0;
-}
+
+  .row h1 {
+    margin: 0 0 20px;
+  }
+
   #index-hero span {
     padding-top: 10px;
     padding-bottom: 15px;
   }
+
   .projects {
     display: inline-block;
     width: 100%;
+
     h3 {
       margin-bottom: 20px;
       margin-top: 0;
     }
+
     p {
       margin: 0;
     }
@@ -97,19 +151,26 @@ Medium devices (640px and larger)
   .row {
     margin-bottom: 5px;
     padding: 0;
-    h1
-    {
+
+    h1 {
       padding: 0 10px;
     }
   }
+
   .container {
-    padding: 30px;
-   }
+    padding: 0px 10px;
+  }
+  nav > ul {
+    margin: 1em 0;
+  }
 }
 /*================================
 Large devices (1024px or larger)
 ==================================*/
 @media only screen and (min-width: 1024px) {
+  main {
+    padding-top: 200px;
+  }
   .col-lg-5 {
     width: 40%;
   }
@@ -117,25 +178,30 @@ Large devices (1024px or larger)
   .col-lg-7 {
     width: 60%;
   }
+
   .col-lg-2 {
     width: 25%;
   }
+
   [class*="col-"] {
     float: left;
     padding: 0 10px;
   }
+
   .about-bullets {
     display: inline-block;
     width: 100%;
   }
+
   .row h2 {
-      margin: 0 0 20px 0;
-    }
-    .container {
-      max-width: 1200px;
-      margin-left: auto;
-      margin-right: auto;
-     }
+    margin: 0 0 20px;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 /*================================
 X-Large devices (1440px or larger)

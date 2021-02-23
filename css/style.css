@@ -47,11 +47,6 @@ a:hover, a:focus, a:active {
   color: #359fcd;
 }
 
-nav {
-  display: block;
-  width: 100%;
-}
-
 nav > ul {
   list-style-type: none;
   padding: 0;
@@ -66,11 +61,6 @@ nav > ul {
 
 nav > ul .align-right {
   text-transform: uppercase;
-}
-
-nav > ul > li {
-  display: inline-block;
-  padding: 0 5px;
 }
 
 nav > ul > li:first-child {
@@ -89,10 +79,21 @@ nav > ul > li:first-child {
   vertical-align: baseline;
 }
 
+.nav-container li:last-child {
+  display: none;
+}
+
+.fa-bars {
+  font-size: 1.8em;
+}
+
+navtoggle.responsive li {
+  display: block;
+}
+
 header {
-  text-align: center;
   background-color: #222222;
-  padding: 0 0 10px 0;
+  padding: 10px 0 4px;
   -webkit-box-shadow: 0 -13px 30px 19px rgba(50, 50, 50, 0.79);
   -moz-box-shadow: 0 -13px 30px 19px rgba(50, 50, 50, 0.79);
   box-shadow: 0 -13px 30px 19px rgba(50, 50, 50, 0.79);
@@ -657,10 +658,52 @@ Small devices (639px and smaller)
 ==================================*/
 @media only screen and (max-width: 639px) {
   #index-hero {
-    padding-top: 250px;
+    padding-top: 80px;
   }
   main {
     padding-top: 160px;
+  }
+  nav > ul > li {
+    display: inline-block;
+    padding: 10px 5px 10px 0;
+  }
+  .vertical-align {
+    padding-right: 0;
+    margin-right: -25px;
+  }
+  .vertical-align li.logo {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    width: 70%;
+    padding-right: 0;
+  }
+  .vertical-align li.logo a {
+    font-size: .9em;
+  }
+  .nav-container {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-basis: auto;
+    width: 25%;
+    text-align: right;
+    padding-right: 0;
+    margin-right: 0;
+  }
+  .nav-container li:not(:last-child) {
+    display: none;
+  }
+  .nav-container li:last-child {
+    display: block;
+    justify-content: flex-end;
+    width: 100%;
+    padding-right: 0;
+  }
+  .container {
+    padding: 0px 10px;
+  }
+  .hidden {
+    display: none;
   }
 }
 
@@ -686,8 +729,8 @@ Medium devices (640px and larger)
     position: relative;
     z-index: 0;
     cursor: pointer;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   header .nav-container .align-right {
     margin-top: 4px;
@@ -699,7 +742,7 @@ Medium devices (640px and larger)
     padding-top: 160px;
   }
   #index-hero {
-    padding-top: 120px;
+    padding-top: 100px;
   }
   .col-md-6 {
     width: 50%;
@@ -722,7 +765,7 @@ Medium devices (640px and larger)
     margin: 0;
   }
   .row h1 {
-    margin: 0 0 20px 0;
+    margin: 0 0 20px;
   }
   #index-hero span {
     padding-top: 10px;
@@ -747,7 +790,10 @@ Medium devices (640px and larger)
     padding: 0 10px;
   }
   .container {
-    padding: 30px;
+    padding: 0px 10px;
+  }
+  nav > ul {
+    margin: 1em 0;
   }
 }
 
@@ -755,6 +801,9 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 ==================================*/
 @media only screen and (min-width: 1024px) {
+  main {
+    padding-top: 200px;
+  }
   .col-lg-5 {
     width: 40%;
   }
@@ -773,7 +822,7 @@ Large devices (1024px or larger)
     width: 100%;
   }
   .row h2 {
-    margin: 0 0 20px 0;
+    margin: 0 0 20px;
   }
   .container {
     max-width: 1200px;
