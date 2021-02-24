@@ -534,13 +534,13 @@ main.project-body.arturo {
   margin: 0 auto;
 }
 
-#roboto-title h2 {
+.roboto-title h2 {
   font-weight: 700;
   color: black;
   margin-bottom: 0;
 }
 
-#roboto-title p {
+.roboto-title p {
   font-weight: 400;
   font-family: 'roboto', sans-serif !important;
 }
