@@ -16,43 +16,72 @@ Small devices (639px and smaller)
   }
 
   .vertical-align {
-      padding-right: 0;
-      margin-right: -25px;
-    li.logo {
-    display: inline-flex;
-    flex-wrap: nowrap;
-    width: 70%;
     padding-right: 0;
-    a {
-      font-size: .9em;
+    margin-right: 0;
+
+    li.logo {
+      display: inline-flex;
+      flex-wrap: nowrap;
+      width: 70%;
+      padding-right: 0;
+
+      a {
+        font-size: 0.9em;
+      }
     }
+
+    #hamburger {
+      display: inline;
+      float: right;
+      width: 25%;
+      padding-right: 0;
+      margin-top: 20px;
+      margin-right: -35px;
     }
   }
 
   .nav-container {
-    display: inline-flex;
+    display: block;
     flex-direction: row;
     flex-wrap: nowrap;
     flex-basis: auto;
-    width: 25%;
-    text-align: right;
+    width: 100%;
+    text-align: center;
     padding-right: 0;
     margin-right: 0;
-    li:not(:last-child) {
-    display: none;
+
+    #toggle-links {
+      display: none;
+      padding: 10px 0;
     }
-    li:last-child {
-      display: block;
-      justify-content: flex-end;
+
+    li {
+      height: 40px;
       width: 100%;
-      padding-right: 0;
+
+      a {
+        text-align: center;
+      }
     }
   }
+
   .container {
-    padding: 0px 10px;
+    padding: 0 20px;
   }
-  .hidden {
-    display: none;
+.index {
+  padding-top: 40px;
+  p {
+    padding-bottom: 40px;
+  }
+}
+  .iris {
+    padding-top: 120px;
+  }
+  main.project-body.arturo {
+    padding-top: 80px;
+  }
+  main#about-hero.about {
+    padding-top: 90px;
   }
 }
 /*================================
@@ -63,106 +92,122 @@ Medium devices (640px and larger)
     text-align: unset;
 
     .logo {
-      width: auto;
-      float: left;
+      display: inline-block;
     }
 
-    .nav-container {
-      display: flex;
-      flex-direction: row;
-      justify-content: flex-end;
-      align-items: flex-end;
-      flex-wrap: nowrap;
+    div.nav-container.borderxwidth {
+      display: inline-block;
+      float: right;
+      margin-top: 25px;
+
+      div.toggle-links {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        flex-wrap: nowrap;
+        flex-direction: row;
+      }
+    }
+
+    li.align-right {
+      display: inline;
+      cursor: pointer;
+      padding-top: 0;
+      padding-bottom: 0;
 
       a {
-        position: relative;
-        z-index: 0;
-        cursor: pointer;
-        padding-top: 0px;
-        padding-bottom: 0px;
-      }
-
-      .align-right {
-        margin-top: 4px;
-        margin-left: 5px;
-        margin-right: 5px;
-        margin-top: 25px;
+        margin: 25px 5px 0;
       }
     }
-  }
 
-  main {
-    padding-top: 160px;
-  }
-
-  #index-hero {
-    padding-top: 100px;
-  }
-
-  .col-md-6 {
-    width: 50%;
-  }
-
-  [class*="col-"] {
-    float: left;
-    padding: 0 10px;
-  }
-
-  .about h3 {
-    margin: 30px 0 0;
-
-    .about h2 {
-      margin: 20px 0;
-    }
-  }
-
-  #about-hero {
-    padding: 0;
-    margin-top: 110px;
-  }
-
-  .index p {
-    margin: 0;
-  }
-
-  .row h1 {
-    margin: 0 0 20px;
-  }
-
-  #index-hero span {
-    padding-top: 10px;
-    padding-bottom: 15px;
-  }
-
-  .projects {
-    display: inline-block;
-    width: 100%;
-
-    h3 {
-      margin-bottom: 20px;
-      margin-top: 0;
+    .col-md-6 {
+      width: 50%;
     }
 
-    p {
-      margin: 0;
-    }
-  }
-
-  .row {
-    margin-bottom: 5px;
-    padding: 0;
-
-    h1 {
+    [class*="col-"] {
+      float: left;
       padding: 0 10px;
     }
-  }
 
-  .container {
-    padding: 0px 10px;
+    .about h3 {
+      margin: 30px 0 0;
+
+      .about h2 {
+        margin: 20px 0;
+      }
+    }
+
+
+    .index p {
+      margin: 0;
+    }
+
+    .row h1 {
+      margin: 0 0 20px;
+    }
+
+    #index-hero span {
+      padding-top: 10px;
+      padding-bottom: 15px;
+    }
+
+    .projects {
+      display: inline-block;
+      width: 100%;
+
+      h3 {
+        margin-bottom: 20px;
+        margin-top: 0;
+      }
+
+      p {
+        margin: 0;
+      }
+    }
+
+    .row {
+      margin-bottom: 5px;
+      padding: 0;
+
+      h1 {
+        padding: 0 20px;
+      }
+    }
+
+    .container {
+      padding: 0 30px;
+    }
+
+    nav > ul {
+      margin: 1em 0;
+    }
+
+    #hamburger {
+      display: none;
+    }
+
+    .toggle-links li {
+      display: inline-block;
+    }
   }
-  nav > ul {
-    margin: 1em 0;
+  .index {
+    padding-top: 200px;
+    p {
+      padding-bottom: 90px;
+    }
   }
+    .iris {
+      padding-top: 120px;
+    }
+    main.project-body.arturo {
+      padding-top: 100px;
+    }
+    div.container nav ul {
+      padding: 0;
+    }
+    main#about-hero.about {
+      padding-top: 130px;
+    }
 }
 /*================================
 Large devices (1024px or larger)
@@ -171,6 +216,7 @@ Large devices (1024px or larger)
   main {
     padding-top: 200px;
   }
+
   .col-lg-5 {
     width: 40%;
   }
@@ -202,6 +248,24 @@ Large devices (1024px or larger)
     margin-left: auto;
     margin-right: auto;
   }
+  .index {
+    padding-top: 40px;
+    p {
+      padding-bottom: 120px;
+    }
+  }
+    .iris {
+      padding-top: 120px;
+    }
+    main.project-body.arturo {
+      padding-top: 100px;
+    }
+    div.container nav ul {
+      padding: 0;
+    }
+    main#about-hero.about {
+      padding-top: 130px;
+    }
 }
 /*================================
 X-Large devices (1440px or larger)

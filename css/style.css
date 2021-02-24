@@ -79,18 +79,6 @@ nav > ul > li:first-child {
   vertical-align: baseline;
 }
 
-.nav-container li:last-child {
-  display: none;
-}
-
-.fa-bars {
-  font-size: 1.8em;
-}
-
-navtoggle.responsive li {
-  display: block;
-}
-
 header {
   background-color: #222222;
   padding: 10px 0 4px;
@@ -158,7 +146,7 @@ h4 {
 
 /* Layout styling */
 .container {
-  padding: 15px 15px;
+  padding: 15px 30px;
 }
 
 .intro {
@@ -669,7 +657,7 @@ Small devices (639px and smaller)
   }
   .vertical-align {
     padding-right: 0;
-    margin-right: -25px;
+    margin-right: 0;
   }
   .vertical-align li.logo {
     display: inline-flex;
@@ -678,32 +666,54 @@ Small devices (639px and smaller)
     padding-right: 0;
   }
   .vertical-align li.logo a {
-    font-size: .9em;
+    font-size: 0.9em;
+  }
+  .vertical-align #hamburger {
+    display: inline;
+    float: right;
+    width: 25%;
+    padding-right: 0;
+    margin-top: 20px;
+    margin-right: -35px;
   }
   .nav-container {
-    display: inline-flex;
+    display: block;
     flex-direction: row;
     flex-wrap: nowrap;
     flex-basis: auto;
-    width: 25%;
-    text-align: right;
+    width: 100%;
+    text-align: center;
     padding-right: 0;
     margin-right: 0;
   }
-  .nav-container li:not(:last-child) {
+  .nav-container #toggle-links {
     display: none;
+    padding: 10px 0;
   }
-  .nav-container li:last-child {
-    display: block;
-    justify-content: flex-end;
+  .nav-container li {
+    height: 40px;
     width: 100%;
-    padding-right: 0;
+  }
+  .nav-container li a {
+    text-align: center;
   }
   .container {
-    padding: 0px 10px;
+    padding: 0 20px;
   }
-  .hidden {
-    display: none;
+  .index {
+    padding-top: 40px;
+  }
+  .index p {
+    padding-bottom: 40px;
+  }
+  .iris {
+    padding-top: 120px;
+  }
+  main.project-body.arturo {
+    padding-top: 80px;
+  }
+  main#about-hero.about {
+    padding-top: 90px;
   }
 }
 
@@ -715,85 +725,99 @@ Medium devices (640px and larger)
     text-align: unset;
   }
   header .logo {
-    width: auto;
-    float: left;
+    display: inline-block;
   }
-  header .nav-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-end;
-    flex-wrap: nowrap;
-  }
-  header .nav-container a {
-    position: relative;
-    z-index: 0;
-    cursor: pointer;
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
-  header .nav-container .align-right {
-    margin-top: 4px;
-    margin-left: 5px;
-    margin-right: 5px;
+  header div.nav-container.borderxwidth {
+    display: inline-block;
+    float: right;
     margin-top: 25px;
   }
-  main {
-    padding-top: 160px;
+  header div.nav-container.borderxwidth div.toggle-links {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    flex-direction: row;
   }
-  #index-hero {
-    padding-top: 100px;
+  header li.align-right {
+    display: inline;
+    cursor: pointer;
+    padding-top: 0;
+    padding-bottom: 0;
   }
-  .col-md-6 {
+  header li.align-right a {
+    margin: 25px 5px 0;
+  }
+  header .col-md-6 {
     width: 50%;
   }
-  [class*="col-"] {
+  header [class*="col-"] {
     float: left;
     padding: 0 10px;
   }
-  .about h3 {
+  header .about h3 {
     margin: 30px 0 0;
   }
-  .about h3 .about h2 {
+  header .about h3 .about h2 {
     margin: 20px 0;
   }
-  #about-hero {
-    padding: 0;
-    margin-top: 110px;
-  }
-  .index p {
+  header .index p {
     margin: 0;
   }
-  .row h1 {
+  header .row h1 {
     margin: 0 0 20px;
   }
-  #index-hero span {
+  header #index-hero span {
     padding-top: 10px;
     padding-bottom: 15px;
   }
-  .projects {
+  header .projects {
     display: inline-block;
     width: 100%;
   }
-  .projects h3 {
+  header .projects h3 {
     margin-bottom: 20px;
     margin-top: 0;
   }
-  .projects p {
+  header .projects p {
     margin: 0;
   }
-  .row {
+  header .row {
     margin-bottom: 5px;
     padding: 0;
   }
-  .row h1 {
-    padding: 0 10px;
+  header .row h1 {
+    padding: 0 20px;
   }
-  .container {
-    padding: 0px 10px;
+  header .container {
+    padding: 0 30px;
   }
-  nav > ul {
+  header nav > ul {
     margin: 1em 0;
+  }
+  header #hamburger {
+    display: none;
+  }
+  header .toggle-links li {
+    display: inline-block;
+  }
+  .index {
+    padding-top: 200px;
+  }
+  .index p {
+    padding-bottom: 90px;
+  }
+  .iris {
+    padding-top: 120px;
+  }
+  main.project-body.arturo {
+    padding-top: 100px;
+  }
+  div.container nav ul {
+    padding: 0;
+  }
+  main#about-hero.about {
+    padding-top: 130px;
   }
 }
 
@@ -828,6 +852,24 @@ Large devices (1024px or larger)
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+  }
+  .index {
+    padding-top: 40px;
+  }
+  .index p {
+    padding-bottom: 120px;
+  }
+  .iris {
+    padding-top: 120px;
+  }
+  main.project-body.arturo {
+    padding-top: 100px;
+  }
+  div.container nav ul {
+    padding: 0;
+  }
+  main#about-hero.about {
+    padding-top: 130px;
   }
 }
 
