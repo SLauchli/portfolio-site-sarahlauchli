@@ -2,7 +2,7 @@
 /* Border X get width  */
 .borderxwidth {
   li.align-right {
-    a:before {
+    a::before {
       position: absolute;
       opacity: 0;
       width: 0;
@@ -11,7 +11,8 @@
       background: $color-blue;
       transition: all 0.3s;
     }
-    a:after {
+
+    a::after {
       position: absolute;
       opacity: 0;
       width: 0;
@@ -25,7 +26,7 @@
 
 .borderxwidth {
   li.align-right {
-    a:before {
+    a::before {
       left: 0;
       top: 0;
     }
@@ -34,7 +35,7 @@
 
 .borderxwidth {
   li.align-right {
-    a:after {
+    a::after {
       right: 0;
       bottom: 0;
     }
@@ -43,12 +44,12 @@
 
 .borderxwidth {
   li.align-right {
-    a:hover:before {
+    a:hover::before {
       opacity: 1;
       width: 100%;
     }
 
-    a:hover:after {
+    a:hover::after {
       opacity: 1;
       width: 100%;
     }

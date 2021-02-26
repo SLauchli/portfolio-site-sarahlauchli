@@ -3,12 +3,13 @@
 }
 
 body {
-  background-color: $color-maindark;
-  color: $color-maindark;
+  background-color: #222;
+  // color: #222;
   font-family: 'Lato', sans-serif;
   font-weight: 500;
   font-size: 1.1em;
   line-height: 1.65em;
+
   p {
     margin: 0;
   }
@@ -19,7 +20,7 @@ img {
 }
 
 a {
-  color: #FFF;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -28,6 +29,8 @@ a:visited {
   color: rgb(153, 153, 153);
 }
 */
-a:hover, a:focus, a:active {
+a:hover,
+a:focus,
+a:active {
   color: $color-blue;
 }

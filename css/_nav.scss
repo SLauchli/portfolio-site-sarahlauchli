@@ -1,27 +1,26 @@
-
-nav>ul {
+nav > ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-nav>ul {
+nav > ul {
   padding: 0 15px;
   font-weight: 300;
-  color: #FFF;
+  color: #fff;
+
   .align-right {
     text-transform: uppercase;
   }
 }
 
-nav>ul>li:first-child {
+nav > ul > li:first-child {
   width: 100%;
   display: block;
   text-transform: none;
   // text-transform: uppercase;
   padding-left: 0;
   padding-right: 0;
-
 }
 
 .logo {

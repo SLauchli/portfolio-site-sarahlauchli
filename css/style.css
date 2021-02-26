@@ -17,8 +17,7 @@ Dark grey = #2D2D2D; Medium grey = #7F7F7F; Light Grey = #D9D9D9; Red = #BD2B2C
 }
 
 body {
-  background-color: #222222;
-  color: #222222;
+  background-color: #222;
   font-family: 'Lato', sans-serif;
   font-weight: 500;
   font-size: 1.1em;
@@ -34,7 +33,7 @@ img {
 }
 
 a {
-  color: #FFF;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -43,7 +42,9 @@ a:visited {
   color: rgb(153, 153, 153);
 }
 */
-a:hover, a:focus, a:active {
+a:hover,
+a:focus,
+a:active {
   color: #359fcd;
 }
 
@@ -56,7 +57,7 @@ nav > ul {
 nav > ul {
   padding: 0 15px;
   font-weight: 300;
-  color: #FFF;
+  color: #fff;
 }
 
 nav > ul .align-right {
@@ -80,7 +81,7 @@ nav > ul > li:first-child {
 }
 
 header {
-  background-color: #222222;
+  background-color: #222;
   padding: 10px 0 4px;
   -webkit-box-shadow: 0 -13px 30px 19px rgba(50, 50, 50, 0.79);
   -moz-box-shadow: 0 -13px 30px 19px rgba(50, 50, 50, 0.79);
@@ -117,7 +118,7 @@ h4 {
 }
 
 #index-hero {
-  background-color: #FFF;
+  background-color: #fff;
   padding-bottom: 20px;
   display: block;
   width: 100%;
@@ -126,7 +127,7 @@ h4 {
 #about-hero {
   display: inline-block;
   width: 100%;
-  color: #999999;
+  color: #999;
 }
 
 #index-hero h1 {
@@ -135,13 +136,13 @@ h4 {
 
 #index-hero span {
   display: block;
-  font-size: 0.60em;
+  font-size: 0.6em;
   color: #000;
-  padding: .5em 0;
+  padding: 0.5em 0;
 }
 
 .project-body {
-  background-color: #FFF;
+  background-color: #fff;
 }
 
 /* Layout styling */
@@ -226,7 +227,7 @@ h4 {
   padding: 0 0 2.67em;
 }
 
-.row:after {
+.row::after {
   content: "";
   clear: both;
   display: table;
@@ -239,24 +240,28 @@ h4 {
 .button,
 .button-main {
   display: inline-block;
+  font-size: 24px;
+
   /* since the <a> tag is inline by default, we need to change this to inline-block */
   background-color: #359fcd;
-  color: #ffffff;
+  color: #fff;
+
   /* needed to override the default link color */
   font-weight: 500;
-  padding: 10px;
+  padding: 15px;
   margin-top: 30px;
   border-radius: 8px;
   transition: 0.2s opacity;
-  width: 290px;
-  transition-duration: 0.2s opacity;
+  width: 100%;
+
+  /* transition-duration: 0.2s opacity; */
 }
 
 .button:active,
 .button:focus,
 .button:hover {
   color: #359fcd;
-  opacity: 0.5;
+  background-color: white;
 }
 
 .button-main:active,
@@ -276,6 +281,7 @@ h4 {
   from {
     fill: #edc655;
   }
+
   to {
     fill: #f76414;
   }
@@ -285,6 +291,7 @@ h4 {
   from {
     transform: translate(0, 50px);
   }
+
   to {
     transform: translate(200px, 50px);
   }
@@ -294,6 +301,7 @@ h4 {
   from {
     transform: translate(446px, 48px);
   }
+
   to {
     transform: translate(100px, 48px);
   }
@@ -474,11 +482,11 @@ h4 {
 
 .arturo h4,
 .arturo p {
-  color: #2D2D2D;
+  color: #2d2d2d;
 }
 
 .arturo h1 {
-  color: #BD2B2C;
+  color: #bd2b2c;
   font-size: 36px;
   padding-top: 40px;
   padding-bottom: 0;
@@ -489,7 +497,7 @@ h4 {
 }
 
 .arturo h3 {
-  color: #7F7F7F;
+  color: #7f7f7f;
   font-size: 20px;
   font-weight: 600;
 }
@@ -605,9 +613,8 @@ main.project-body.arturo {
 .button.contact:active,
 .button.contact:focus,
 .button.contact:hover {
-  background-color: #FFF;
-  color: #359fcd;
-  border: 2px solid #FFF;
+  background-color: #359fcd;
+  color: white;
 }
 
 .socmed {
@@ -638,36 +645,42 @@ main.project-body.arturo {
 }
 
 footer {
-  color: #999999;
+  color: #999;
 }
 
-/*================================
+/* ================================
 Small devices (639px and smaller)
-==================================*/
+================================== */
 @media only screen and (max-width: 639px) {
   #index-hero {
     padding-top: 80px;
   }
+
   main {
     padding-top: 160px;
   }
+
   nav > ul > li {
     display: inline-block;
     padding: 10px 5px 10px 0;
   }
+
   .vertical-align {
     padding-right: 0;
     margin-right: 0;
   }
+
   .vertical-align li.logo {
     display: inline-flex;
     flex-wrap: nowrap;
     width: 70%;
     padding-right: 0;
   }
+
   .vertical-align li.logo a {
     font-size: 0.9em;
   }
+
   .vertical-align #hamburger {
     display: inline;
     float: right;
@@ -676,208 +689,262 @@ Small devices (639px and smaller)
     margin-top: 20px;
     margin-right: -35px;
   }
+
   .nav-container {
     display: block;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    flex-flow: row nowrap;
     flex-basis: auto;
     width: 100%;
     text-align: center;
     padding-right: 0;
     margin-right: 0;
   }
+
   .nav-container #toggle-links {
     display: none;
     padding: 10px 0;
   }
+
   .nav-container li {
     height: 40px;
     width: 100%;
   }
+
   .nav-container li a {
     text-align: center;
   }
+
   .container {
     padding: 0 20px;
   }
+
   .index {
     padding-top: 40px;
   }
+
   .index p {
     padding-bottom: 40px;
   }
+
   .iris {
     padding-top: 120px;
   }
+
   main.project-body.arturo {
     padding-top: 80px;
   }
+
   main#about-hero.about {
     padding-top: 90px;
   }
 }
 
-/*================================
+/* ================================
 Medium devices (640px and larger)
-==================================*/
+================================== */
 @media only screen and (min-width: 640px) {
   header {
     text-align: unset;
   }
+
   header .logo {
     display: inline-block;
   }
+
   header div.nav-container.borderxwidth {
     display: inline-block;
     float: right;
     margin-top: 25px;
   }
+
   header div.nav-container.borderxwidth div.toggle-links {
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
-    flex-wrap: nowrap;
-    flex-direction: row;
+    flex-flow: row nowrap;
   }
+
   header li.align-right {
     display: inline;
+    position: relative;
+    z-index: 0;
     cursor: pointer;
-    padding-top: 0;
-    padding-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
+
   header li.align-right a {
     margin: 25px 5px 0;
   }
+
   header .col-md-6 {
     width: 50%;
   }
+
   header [class*="col-"] {
     float: left;
     padding: 0 10px;
   }
+
   header .about h3 {
     margin: 30px 0 0;
   }
+
   header .about h3 .about h2 {
     margin: 20px 0;
   }
+
   header .index p {
     margin: 0;
   }
+
   header .row h1 {
     margin: 0 0 20px;
   }
+
   header #index-hero span {
     padding-top: 10px;
     padding-bottom: 15px;
   }
+
   header .projects {
     display: inline-block;
     width: 100%;
   }
+
   header .projects h3 {
     margin-bottom: 20px;
     margin-top: 0;
   }
+
   header .projects p {
     margin: 0;
   }
+
   header .row {
     margin-bottom: 5px;
     padding: 0;
   }
+
   header .row h1 {
     padding: 0 20px;
   }
+
   header .container {
     padding: 0 30px;
   }
+
   header nav > ul {
     margin: 1em 0;
   }
+
   header #hamburger {
     display: none;
   }
+
   header .toggle-links li {
     display: inline-block;
   }
+
   .index {
     padding-top: 200px;
   }
+
   .index p {
     padding-bottom: 90px;
   }
+
   .iris {
     padding-top: 120px;
   }
+
   main.project-body.arturo {
     padding-top: 100px;
   }
+
   div.container nav ul {
     padding: 0;
   }
+
   main#about-hero.about {
     padding-top: 130px;
   }
 }
 
-/*================================
+/* ================================
 Large devices (1024px or larger)
-==================================*/
+================================== */
 @media only screen and (min-width: 1024px) {
   main {
     padding-top: 200px;
   }
+
   .col-lg-5 {
     width: 40%;
   }
+
   .col-lg-7 {
     width: 60%;
   }
+
   .col-lg-2 {
     width: 25%;
   }
+
   [class*="col-"] {
     float: left;
     padding: 0 10px;
   }
+
   .about-bullets {
     display: inline-block;
     width: 100%;
   }
+
   .row h2 {
     margin: 0 0 20px;
   }
+
   .container {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
   }
+
   .index {
     padding-top: 40px;
   }
+
   .index p {
     padding-bottom: 120px;
   }
+
   .iris {
     padding-top: 120px;
   }
+
   main.project-body.arturo {
     padding-top: 100px;
   }
+
   div.container nav ul {
     padding: 0;
   }
+
   main#about-hero.about {
     padding-top: 130px;
   }
 }
 
-/*================================
+/* ================================
 X-Large devices (1440px or larger)
-==================================*/
+@media only screen and (min-width: 1440px){
+
+}
+================================== */
+
 /* Border X get width  */
-.borderxwidth li.align-right a:before {
+.borderxwidth li.align-right a::before {
   position: absolute;
   opacity: 0;
   width: 0;
@@ -887,7 +954,7 @@ X-Large devices (1440px or larger)
   transition: all 0.3s;
 }
 
-.borderxwidth li.align-right a:after {
+.borderxwidth li.align-right a::after {
   position: absolute;
   opacity: 0;
   width: 0;
@@ -897,22 +964,22 @@ X-Large devices (1440px or larger)
   transition: all 0.3s;
 }
 
-.borderxwidth li.align-right a:before {
+.borderxwidth li.align-right a::before {
   left: 0;
   top: 0;
 }
 
-.borderxwidth li.align-right a:after {
+.borderxwidth li.align-right a::after {
   right: 0;
   bottom: 0;
 }
 
-.borderxwidth li.align-right a:hover:before {
+.borderxwidth li.align-right a:hover::before {
   opacity: 1;
   width: 100%;
 }
 
-.borderxwidth li.align-right a:hover:after {
+.borderxwidth li.align-right a:hover::after {
   opacity: 1;
   width: 100%;
 }

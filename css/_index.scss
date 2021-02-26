@@ -3,7 +3,7 @@
   padding: 0 0 2.67em;
 }
 
-.row:after {
+.row::after {
   content: "";
   clear: both;
   display: table;
@@ -16,16 +16,19 @@
 .button,
 .button-main {
   display: inline-block;
+  font-size: 24px;
+
   /* since the <a> tag is inline by default, we need to change this to inline-block */
   background-color: $color-blue;
-  color: #ffffff;
+  color: #fff;
+
   /* needed to override the default link color */
   font-weight: 500;
-  padding: 10px;
+  padding: 15px;
   margin-top: 30px;
   border-radius: 8px;
   transition: 0.2s opacity;
-  width: 290px;
+  width: 100%;
   transition-duration: 0.2s opacity;
 }
 
@@ -34,7 +37,8 @@
 .button:hover {
   // background-color: #FFF;
   color: $color-blue;
-  opacity: 0.5;
+  background-color: white;
+  // opacity: 0.5;
 }
 
 .button-main:active,
@@ -49,6 +53,7 @@
   max-width: 100%;
   height: auto;
 }
+
 @keyframes color-change {
   from {
     fill: #edc655;
@@ -58,22 +63,24 @@
     fill: #f76414;
   }
 }
+
 @keyframes cloud-move {
   from {
-    transform: translate(0,50px);
+    transform: translate(0, 50px);
   }
 
   to {
-    transform: translate(200px,50px);
+    transform: translate(200px, 50px);
   }
 }
+
 @keyframes cloud-move-reverse {
   from {
-    transform: translate(446px,48px);
+    transform: translate(446px, 48px);
   }
 
   to {
-    transform: translate(100px,48px);
+    transform: translate(100px, 48px);
   }
 }
 
