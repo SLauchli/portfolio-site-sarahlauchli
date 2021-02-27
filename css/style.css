@@ -730,8 +730,10 @@ Medium devices (640px and larger)
   }
   header div.nav-container.borderxwidth {
     display: inline-block;
+    width: 45%;
     float: right;
     margin-top: 25px;
+    text-align: right;
   }
   header div.nav-container.borderxwidth div.toggle-links {
     display: flex;

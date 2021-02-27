@@ -102,8 +102,10 @@ Medium devices (640px and larger)
 
     div.nav-container.borderxwidth {
       display: inline-block;
+      width: 45%;
       float: right;
       margin-top: 25px;
+      text-align: right;
 
       div.toggle-links {
         display: flex;
